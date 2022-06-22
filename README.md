@@ -1,4 +1,4 @@
-# FB-ProfilePageImitation
+# Facebook - Profile Page Imitation
 
 Imitation of a FB Profile Page - DCI Group project (June 23.2022)
 
