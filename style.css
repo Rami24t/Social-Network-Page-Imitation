@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+html:root {
+  /* Tod shadow */
+  --dark-grey1-fb: #575757;
+  /* background of main */
+  --grey2-fb: #f0f2f5;
+  /* Button Grey ... */
+  --grey4-fb: #e4e6eb;
+  /* Button */
+  --blue1-fb: #1b74e4;
+  --green1-fb: #31a24c;
+  /* Comments BG */
+  --grey5-fb: #92979c;
+  --grey6-fb: #65676b;
+}
