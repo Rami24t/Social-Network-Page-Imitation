@@ -8,3 +8,13 @@ grey: #f0f2f5 // comments background
 ...button grey: #e4e6eb
 like Button grey: #92979c
 grey font color in nav fonts: #65676b
+
+## Fonts
+
+Helvetica
+Klavica for the logo
+
+## Breakpoints
+
+- 950px : top form input and link disappears on smaller screen
+- 907px : 1 col on smaller screen

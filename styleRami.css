@@ -1,0 +1,8 @@
+@font-face {
+  font-family: FB-Logo;
+  src: url(./Fonts/Klavika/klavika-bold.otf);
+}
+
+.logo {
+  font-family: "FB-logo";
+}
