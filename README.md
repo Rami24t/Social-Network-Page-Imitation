@@ -4,8 +4,8 @@
 
 ### Part 1:
 
-Do an imitation of the facebook landing page.
-Make it look good on all screen sizes.
+- Do an imitation of the facebook landing page.
+- Make it look good on all screen sizes.
 
 #### Mockups:
 
@@ -19,8 +19,8 @@ Make it look good on all screen sizes.
 
 ### Part 2:
 
-Do an imitation of any FB page design in 2022 mainly using CSS.
-Make it look good on all screen sizes.
+- Do an imitation of any FB page design in 2022 mainly using CSS.
+- Make it look good on all screen sizes.
 
 #### Mockup images:
 
