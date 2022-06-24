@@ -101,11 +101,13 @@
               placeholder="First name"
               class="firstname"
               name="firstname"
+              required
             /><input
               type="text"
               placeholder="Last name"
               class="lastname"
               name="lastname"
+              required
             />
           </li>
           <li>
@@ -113,14 +115,20 @@
               type="text"
               name="mobileoremail"
               placeholder="Mobile number or email"
+              required
             />
           </li>
           <li>
-            <input type="password" name="password" placeholder="New password" />
+            <input
+              type="password"
+              name="password"
+              placeholder="New password"
+              required
+            />
           </li>
           <p>Birthday</p>
           <li class="clearfix">
-            <select id="day" name="day">
+            <select id="day" name="day" required>
               <option>Day</option>
               <option value="01">01</option>
               <option value="02">02</option>
@@ -154,7 +162,7 @@
               <option value="30">30</option>
               <option value="31">31</option>
             </select>
-            <select id="month" name="month">
+            <select id="month" name="month" required>
               <option value="january">January</option>
               <option value="february">February</option>
               <option value="march">March</option>
@@ -168,7 +176,7 @@
               <option value="november">November</option>
               <option value="december">December</option>
             </select>
-            <select id="year" name="year">
+            <select id="year" name="year" required>
               <option value="2022" selected="true">2022</option>
               <option value="2021">2021</option>
               <option value="2020">2020</option>
@@ -291,9 +299,30 @@
             <a href="">Why do I need to provide my date of birth?</a>
           </li>
           <li>
-            <label><input type="radio" name="gender" value="f" />Female</label>
-            <label><input type="radio" name="gender" value="m" />Male</label>
-            <label><input type="radio" name="gender" value="c" />Custom</label>
+            <label
+              ><input
+                type="radio"
+                name="gender"
+                value="f"
+                required
+              />Female</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="gender"
+                value="m"
+                required
+              />Male</label
+            >
+            <label
+              ><input
+                type="radio"
+                name="gender"
+                value="c"
+                required
+              />Custom</label
+            >
           </li>
           <li class="terms">
             By clicking Sign Up, you agree to our <a href="#">Terms</a>. Learn
