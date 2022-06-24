@@ -44,7 +44,6 @@
 
 #### Live examples to imitate:
 
-- https://www.facebook.com/TheElonmusk/
 - https://www.facebook.com/TomandJerry
 - https://www.facebook.com/officialpinkpanther
 - https://www.facebook.com/GhibliUSA/
