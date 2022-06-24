@@ -43,8 +43,8 @@ Make it look good on all screen sizes.
 
 #### Implementation Sketch Plan:
 
-![](Design%20Sketches/DesignSketchIMG1.jpg) [](Design%20Sketches)
+![](Design%20Page/%20Sketches/DesignSketchIMG1.jpg) [](Design%20Sketches)
 
 #### FB Styles to use in the project
 
-[](styles.md)
+[](./styles.md)
