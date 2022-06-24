@@ -303,6 +303,7 @@ svg .cls-1 {
   .main div {
     float: none;
     margin: auto;
+    margin-top: 24px;
   }
   .footer {
     position: static;
@@ -311,7 +312,7 @@ svg .cls-1 {
     width: 99%;
     min-height: calc(100vh - 1090px);
     padding-top: 32px;
-    padding-bottom: 148px;
+    padding-bottom: 108px;
   }
 }
 @media only screen and (max-width: 710px) {
