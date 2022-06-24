@@ -14,7 +14,7 @@
 
 - Helvetica
 - Klavica for the logo
-- <a href="./src/imgs/logo/FBa.svg">## FB logo a letter image in svg format </a>
+- <a href="./src/imgs/logo/FBa.svg"> FB logo a letter image in svg format </a>
 
 
 ## Breakpoints for FB page in fb:
