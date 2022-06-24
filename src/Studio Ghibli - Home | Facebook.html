@@ -61,7 +61,29 @@
           </div>
         </div>
       </div>
-      <header class="main-header"></header>
+      <header class="main-header max-w-screen-xmd mx-auto">
+      <div class="cover">
+        <img class="rounded-lg " src="./imgs/Ghibli-imgs/cover.jpg" alt="">
+      </div>
+      <div class="main-banner flex between mx-7">
+        <div class="avatar-container flex">
+          <div class="logo">
+            <img class="w-[140px] rounded-full mt-[-16px] border-[4px] border-white h-" src="./imgs/Ghibli-imgs/Avatar.jpg" alt="page's avatar image - totoro">
+          </div>
+          <div class="title">
+            <h1 class="font-bold text-3xl f-align-center">Studio Ghibli</h1>
+            <p>@GhibliStudio . Community</p>
+          </div>
+        </div>
+        <div class="message-wrapper">
+          <button class=" bg-blue  text-white py-2 px-20 font-bold rounded-lg">                <i class="fa-brands fa-facebook-messenger"></i>
+            Send message</button>
+            <p class="text-gray text-1 text-sm">Hi! Please let us know how we can help.</p>
+        </div>
+      </div>
+    
+      
+      </header>
       <aside class="aside">
         <section class="aside-section"></section>
         <section class="aside-section"></section>
@@ -80,10 +102,12 @@
     <script>
       tailwind.config = {
         theme: {
+          screens: {
+              xmd: "907px",
+            },
           extend: {
             screens: {
               sm: "480px",
-              xmd: "907px",
               lg: "950px",
             },
             colors: {
