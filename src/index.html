@@ -64,7 +64,13 @@
             </svg>
           </a>
         </div>
-        <form class="login-form" action="post" class="clearfix">
+        <form
+          class="login-form"
+          method="post"
+          action="#"
+          class="clearfix"
+          name="login-form"
+        >
           <li>
             Email or phone<br /><input type="text" name="email" required />
           </li>
@@ -85,7 +91,7 @@
         <p>Connect with friends and the world around you on Facebook.</p>
         <img src="./imgs/landing-imgs/fb_landing_img1.png" />
       </div>
-      <form action="">
+      <form name="signup-form" method="post" action="#">
         <div class="div2 clearfix">
           <h1>Create an account</h1>
           <p>It's free and always will be.</p>
@@ -94,10 +100,24 @@
               type="text"
               placeholder="First name"
               class="firstname"
-            /><input type="text" placeholder="Last name" class="lastname" />
+              name="firstname"
+            /><input
+              type="text"
+              placeholder="Last name"
+              class="lastname"
+              name="lastname"
+            />
           </li>
-          <li><input type="text" placeholder="Mobile number or email" /></li>
-          <li><input type="password" placeholder="New password" /></li>
+          <li>
+            <input
+              type="text"
+              name="mobileoremail"
+              placeholder="Mobile number or email"
+            />
+          </li>
+          <li>
+            <input type="password" name="password" placeholder="New password" />
+          </li>
           <p>Birthday</p>
           <li class="clearfix">
             <select id="day" name="day">
@@ -272,7 +292,7 @@
           </li>
           <li>
             <label><input type="radio" name="gender" value="f" />Female</label>
-            <label><input type="radio" name="gender" value="ma" />Male</label>
+            <label><input type="radio" name="gender" value="m" />Male</label>
             <label><input type="radio" name="gender" value="c" />Custom</label>
           </li>
           <li class="terms">
