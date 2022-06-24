@@ -45,6 +45,6 @@ Make it look good on all screen sizes.
 
 ![](./Design%20Page%20Sketches/DesignSketchIMG1.jpg)
 
-#### FB Styles to use in the project
+#### FB Styles and tips to use in the project
 
-./styles.md
+<a href="./styles.md"> Styles </a>
