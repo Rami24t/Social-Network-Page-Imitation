@@ -25,21 +25,21 @@ Make it look good on all screen sizes.
 #### Mockup images:
 
 - Desktop design:
-  ![](Design/DesktopDesign.png)
+  ![](./Design%20Page//DesktopDesign.png)
 
 - Tablet Design:
-  ![](Design/Tablet%20Design.png)
+  ![](./Design%20Page//Tablet%20Design.png)
 
 - Mobile Design:
-  ![](Design/Mobile%20Design.png)
+  ![](./Design%20Page/Mobile%20Design.png)
 
-#### Live examples:
+#### Live examples to imitate:
 
-Target example: https://www.facebook.com/TheElonmusk/
-Mockup Example 2: https://www.facebook.com/TomandJerry
-Mockup Example 3: https://www.facebook.com/officialpinkpanther
-Mockup Example 4: https://www.facebook.com/GhibliUSA/
-Mockup Example 5: https://www.facebook.com/AtlusWest/
+- https://www.facebook.com/TheElonmusk/
+- https://www.facebook.com/TomandJerry
+- https://www.facebook.com/officialpinkpanther
+- https://www.facebook.com/GhibliUSA/
+- https://www.facebook.com/AtlusWest/
 
 #### Implementation Sketch Plan:
 
