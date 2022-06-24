@@ -1,6 +1,10 @@
 # Facebook Pages Imitation
 
+
+
 ## Imitation of the famous FB home page and of a FB Page inside facebook - DCI Group project (June 23.2022)
+
+
 
 ### Part 1:
 
@@ -10,12 +14,15 @@
 #### Mockups:
 
 - Desktop:
-  ![](Landing%20Page%20Design/Screenshot%202022-06-24%20at%2009-16-34%20Screenshot.png)
+  ![Desktop](Landing%20Page%20Design/Screenshot%202022-06-24%20at%2009-16-34%20Screenshot.png)
 
 - Tablet:
-  ![](Landing%20Page%20Design/Screenshot%202022-06-24%20at%2009-17-09%20Screenshot.png)
+  ![Tablet](Landing%20Page%20Design/Screenshot%202022-06-24%20at%2009-17-09%20Screenshot.png)
 
-- Mobile.
+- Mobile:: ...
+
+
+
 
 ### Part 2:
 
@@ -25,13 +32,15 @@
 #### Mockup images:
 
 - Desktop design:
-  ![](./Design%20Page//DesktopDesign.png)
+  ![desktop](./Design%20Page//DesktopDesign.png)
 
-- Tablet Design:
-  ![](./Design%20Page//Tablet%20Design.png)
+- Tablet Design: 
+
+![tablet](./Design%20Page//Tablet%20Design.png)
 
 - Mobile Design:
-  ![](./Design%20Page/Mobile%20Design.png)
+ 
+![mobile](./Design%20Page/Mobile%20Design.png)
 
 #### Live examples to imitate:
 
