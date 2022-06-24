@@ -1,4 +1,4 @@
-# Facebook Page Imitation
+# Facebook Pages Imitation
 
 ## Imitation of the famous FB home page and of a FB Page inside facebook - DCI Group project (June 23.2022)
 
