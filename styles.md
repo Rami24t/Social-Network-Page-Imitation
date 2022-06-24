@@ -14,13 +14,11 @@
 
 - Helvetica
 - Klavica for the logo
-- the a in facebook logo:
+- <a href="./src/imgs/logo/FBa.svg">## FB logo a letter image in svg format </a>
+
 
 ## Breakpoints for FB page in fb:
 
 - 950px : top form input and link disappears on smaller screen
 - 907px : 1 col on smaller screen
 
-## FB logo a letter image in svg format
-
-./src/imgs/logo/FBa.svg
