@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "FB-Logo";
+  src: url(./Fonts/Klavika/klavika-bold.otf);
+}
+
+html:root {
+  /* Tod shadow */
+  --dark-grey1-fb: #575757;
+  /* background of main */
+  --grey2-fb: #f0f2f5;
+  /* Button Grey ... */
+  --grey4-fb: #e4e6eb;
+  /* Button BG Colors*/
+  --blue1-fb: #1b74e4;
+  --green1-fb: #31a24c;
+  /* Button-text Color */
+  --btn-text: #fff;
+  /* Comments BG */
+  --grey5-fb: #92979c;
+  --grey6-fb: #65676b;
+}
+
+body {
+  font-size: 1.1rem;
+}
+
+.logo {
+  font-family: "FB-logo", "logo";
+  font-weight: bold;
+  color: var(--blue1-fb);
+}
+
+.flex {
+  display: flex;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.absolute-top {
+  display: absolute;
+  top: 0%;
+}
+
+.bg-blue {
+  background-color: var(--blue1-fb);
+}
+
+.w-100p {
+  width: 100%;
+}
+
+.main-container {
+  max-width: 876px;
+  margin: auto;
+}
+.fluid-container {
+  max-width: 98%;
+  margin: auto;
+}
+.button {
+  text-align: center;
+  color: var(--btn-text);
+}
+
+.sticky-top {
+  position: sticky;
+  top: 0%;
+}
+
+.send-message {
+  padding: 6px;
+}

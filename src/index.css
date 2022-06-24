@@ -1,0 +1,367 @@
+body {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 0px;
+  font-family: Helvetica, sans-serif, verdana, sans-serif;
+  background-color: #e9ebee;
+  min-height: 100vh;
+  overflow: auto;
+  /* background: linear-gradient(white, #d3d8e8); */
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.header {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #4c66a4;
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
+  padding-bottom: 6px;
+}
+.header-container {
+  max-width: 1080px;
+  margin: 0px auto;
+  padding: 0px;
+  padding-right: 24px;
+}
+.fb-logo {
+  width: 230px;
+  height: auto;
+  float: left;
+  overflow: hidden;
+  background-image: url("./imgs/logo/fb-logo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  filter: blur(0.5px) saturate(0%) grayscale(1) brightness(9);
+  margin-top: 10px;
+}
+.header li {
+  list-style-type: none;
+  float: left;
+  text-align: left;
+  color: white;
+}
+.header .login-form {
+  margin-top: 15px;
+  float: right;
+}
+.header .login-form li {
+  font-size: 13px;
+  margin-left: 15px;
+  margin-top: 0px;
+}
+.header .login-form li a {
+  color: #9cb4d8;
+  text-decoration: none;
+}
+.header .login-form input[type="text"] {
+  margin-top: 6px;
+  margin-bottom: 3px;
+  width: 150px;
+  border: 1px solid #08298a;
+  height: 22px;
+  padding-left: 8px;
+  margin-right: 3px;
+}
+.header .login-form input[type="password"] {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  width: 150px;
+  border: 1px solid #08298a;
+  height: 22px;
+  padding-left: 8px;
+}
+.header .login-form input[type="submit"] {
+  font-weight: bold;
+  height: 26px;
+  margin: 0%;
+  margin-top: 22px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: #3e64ab;
+  color: #fff;
+  border: 1px solid #29487d;
+  line-height: 18px;
+  cursor: pointer;
+}
+.header input[type="submit"]:hover {
+  background-color: #365899;
+}
+
+.main {
+  margin: 0 auto;
+  width: 100%;
+  padding: 34px 0px;
+  text-align: center;
+  max-width: 1150px;
+  background-color: #e9ebee;
+  clear: both;
+}
+.main div {
+  font-family: Helvetica, Arial, "Varela", tahoma, sans-serif;
+}
+.div1 {
+  margin-top: 35px;
+  max-width: 500px;
+  text-align: left;
+  float: left;
+  margin-left: 6px;
+}
+.div1 p {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
+  margin-bottom: 4px;
+  color: #10406c;
+}
+.div2 {
+  margin-top: 10px;
+  max-width: 450px;
+  text-align: left;
+  float: right;
+  margin-right: 12px;
+}
+.div2 h1 {
+  margin: 0px;
+  font-size: 37px;
+  color: #2e2e2e;
+}
+.div2 p {
+  font-size: 18px;
+  color: #2e2e2e;
+  margin-bottom: 0%;
+}
+.div2 li {
+  list-style-type: none;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.div2 li input[type="text"] {
+  width: 97%;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 18px;
+  border: 1px solid #bdbdbd;
+}
+.div2 li input[type="password"] {
+  width: 97%;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 18px;
+  border: 1px solid #bdbdbd;
+}
+.main .div2 li .firstname,
+.main .div2 li .lastname {
+  width: 46%;
+  margin: 0%;
+}
+.main .div2 li .lastname {
+  margin-left: 1.7%;
+}
+.div2 li select {
+  padding: 4px;
+  float: left;
+}
+.div2 li a {
+  margin-left: 10px;
+  max-width: 150px;
+  color: #045fb4;
+  text-decoration: none;
+  font-size: 11px;
+  display: inline-block;
+  line-height: 15px;
+}
+.div2 li {
+  color: #000000d3;
+  font-size: 18px;
+}
+.div2 .terms {
+  color: #424242;
+  font-size: 11px;
+}
+.div2 .terms a {
+  display: inline;
+  margin: 0px;
+}
+.div2 li input[type="submit"] {
+  width: 205px;
+  height: 45px;
+  text-align: center;
+  font-size: 19px;
+  margin-bottom: 2px;
+  font-family: "Freight Sans Bold", helvetica, arial, sans-serif;
+  font-weight: bold;
+  background-color: #42b72a;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  cursor: pointer;
+}
+.div2 input[type="submit"]:hover {
+  background-color: #36a420;
+  border: none;
+}
+.div2 input[type="submit"]:active {
+  box-shadow: 0 0 3 #045fb4;
+}
+.div2 .create_page {
+  color: #424242;
+  font-size: 13px;
+  font-weight: bold;
+}
+.div2 .create_page a {
+  display: inline;
+  margin: 0px;
+  font-size: 13px;
+}
+.footer {
+  width: 100%;
+  clear: both;
+  background-color: white;
+  text-align: left;
+  position: fixed;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  padding: 24px;
+  padding-left: 1%;
+  padding-right: 1%;
+  color: #737373;
+  font-size: 14px;
+}
+.footer-a {
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: left;
+  padding: 0px;
+  border-bottom: 1px solid #e6e6e6;
+  line-height: 1.6;
+  padding-bottom: 8px;
+}
+.footer-a a {
+  color: #365898;
+  display: inline;
+  text-decoration: none;
+}
+
+.footer-b {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0px auto;
+  margin-top: 10px;
+  padding: 0px;
+  font-size: 12px;
+}
+.footer-b a {
+  color: #385898;
+  display: inline-block;
+  margin: 3px;
+  margin-left: 0px;
+  text-decoration: none;
+}
+.footer p {
+  margin-top: 22px;
+}
+.footer a {
+  margin-right: 18px;
+}
+
+@media only screen and (max-width: 970px) {
+  .main {
+    margin-top: 8px;
+    padding-top: 0%;
+  }
+  .main div {
+    float: none;
+    margin: auto;
+  }
+  .footer {
+    position: static;
+    padding: 1%;
+    margin: 0%;
+    width: 99%;
+  }
+}
+@media only screen and (max-width: 710px) {
+  .footer {
+    padding: 16px;
+    margin: 0%;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .header .fb-logo,
+  .header .login-form,
+  .header li {
+    float: none;
+  }
+  .header li input {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .header {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #4c66a4;
+    padding: 0%;
+    padding-bottom: 16px;
+    margin-top: -10px;
+  }
+  .header-container {
+    margin: 0 auto;
+    padding: 0;
+    width: 92%;
+  }
+  .fb-logo {
+    max-width: 230px;
+    height: auto;
+    float: none;
+    filter: blur(0.5px);
+  }
+  .header li {
+    float: none;
+  }
+  .header .login-form {
+    margin-top: 10px;
+    float: none;
+  }
+  .header .login-form li {
+    font-size: 14px;
+    margin: 0%;
+    margin-top: 0px;
+  }
+  .header .login-form input[type="text"] {
+    margin-bottom: 12px;
+    height: 26px;
+    width: 100%;
+  }
+  .header .login-form input[type="password"] {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border: 1px solid #08298a;
+    height: 26px;
+    padding-left: 8px;
+    width: 100%;
+  }
+  .header .login-form input[type="submit"] {
+    height: 30px;
+    margin: 0%;
+    margin-top: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: bold;
+  }
+}
+svg .cls-1 {
+  fill: #fff;
+}

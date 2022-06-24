@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styleAntonio.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styleRami.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Studio Ghibli - Home | Facebook</title>
+  </head>
+  <body class="fluid-container">
+    <header class="header-top">
+      <div class="header-top-1 flex between sticky-top w-100p">
+        <div class="logo text-blue font-logo text-[3.2rem]">facebook</div>
+        <div class="form flex">
+          <input
+            type="text"
+            class="desktop-only"
+            placeholder="Email or phone"
+          />
+          <input
+            type="text"
+            class="desktop-only"
+            type="password"
+            placeholder="Password"
+          />
+          <a href="">
+            <div class="button login bg-blue"></div>
+          </a>
+          <div class="link desktop-only font-['FB-logo']">
+            <a href="#">Forgot Account?</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="on-hover">
+        <div class="header-top-2 absolute-top w-100p">
+          <div class="main-container flex between">
+            <div class="flex">
+              <div class="main-mini-logo">
+                <img src="" alt="" />
+              </div>
+              <p>Studio Ghibli</p>
+            </div>
+            <div class="flex">
+              <div class="flex gap-2 button send-message bg-blue">
+                <i class="fa-brands fa-facebook-messenger"></i>
+                <div>Send message</div>
+              </div>
+              <div>...</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <header class="main-header"></header>
+      <aside class="aside">
+        <section class="aside-section"></section>
+        <section class="aside-section"></section>
+        <section class="aside-section"></section>
+        <section class="aside-section"></section>
+        <section class="aside-section"></section>
+        <footer class="aside-footer"></footer>
+      </aside>
+      <section class="posts">
+        <article class="post"></article>
+        <article class="post"></article>
+        <article class="post"></article>
+      </section>
+    </main>
+    <footer class="footer"></footer>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            screens: {
+              sm: "480px",
+              xmd: "907px",
+              lg: "950px",
+            },
+            colors: {
+              blue: "#1b74e4",
+              green: "#31a24c",
+              "gray-dark": "--dark-grey1-fb",
+              gray: "#8492a6",
+              "gray-light": "#f0f2f5",
+            },
+            fontFamily: {
+              logo: ["FB-Logo", "Helvetica"],
+            },
+          },
+        },
+      };
+    </script>
+  </body>
+</html>

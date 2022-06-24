@@ -41,9 +41,11 @@ html:root {
   --grey2-fb: #f0f2f5;
   /* Button Grey ... */
   --grey4-fb: #e4e6eb;
-  /* Button */
+  /* Button BG Colors*/
   --blue1-fb: #1b74e4;
   --green1-fb: #31a24c;
+  /* Button-text Color */
+  --btn-text: #fff;
   /* Comments BG */
   --grey5-fb: #92979c;
   --grey6-fb: #65676b;
