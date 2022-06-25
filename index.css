@@ -41,7 +41,8 @@ body {
   /* background-image: url("./imgs/logo/fb-logo.svg"); */
   background-repeat: no-repeat;
   background-size: contain;
-  filter: blur(0.5px) saturate(0%) grayscale(1) brightness(9);
+  filter: blur(0.5px);
+  /* filter: blur(0.5px) saturate(0%) grayscale(1) brightness(9); */
   margin-top: 10px;
 }
 .header li {
@@ -359,7 +360,8 @@ svg .cls-1 {
     max-width: 230px;
     height: auto;
     float: none;
-    filter: blur(0.5px) saturate(0%) grayscale(1) brightness(9);
+    filter: blur(0.5px);
+    /* filter: blur(0.5px) saturate(0%) grayscale(1) brightness(9); */
   }
   .header li {
     float: none;
