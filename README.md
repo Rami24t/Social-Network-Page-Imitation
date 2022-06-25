@@ -82,6 +82,4 @@ Tips:
 
 ![](./Design%20Page%20Sketches/DesignSketchIMG1.jpg)
 
-#### FB Styles and tips to use in the fb-page inside fb and in the project in general:
-
-<a href="./styles.md"> Styles </a>
+#### FB Styles and tips to use in the fb-page inside fb and in the project in general: <a href="./styles.md"> Styles </a>
