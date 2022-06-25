@@ -80,7 +80,8 @@ body {
   height: 22px;
   padding-left: 8px;
 }
-.header .login-form input[type="submit"] {
+.header .login-form input[type="submit"],
+.header .login-form input[type="button"] {
   font-weight: bold;
   height: 26px;
   margin: 0%;
@@ -196,7 +197,8 @@ body {
   display: inline;
   margin: 0px;
 }
-.div2 li input[type="submit"] {
+.div2 li input[type="submit"],
+.div2 li input[type="button"] {
   width: 205px;
   height: 45px;
   text-align: center;
@@ -381,7 +383,8 @@ svg .cls-1 {
     padding-left: 8px;
     width: 90%;
   }
-  .header .login-form input[type="submit"] {
+  .header .login-form input[type="submit"],
+  .header .login-form input[type="button"] {
     height: 30px;
     margin: 0%;
     margin-right: 0%;
@@ -412,7 +415,8 @@ svg .cls-1 {
     width: 93%;
     height: 26px;
   }
-  .header .login-form input[type="submit"] {
+  .header .login-form input[type="submit"],
+  .header .login-form input[type="button"] {
     height: 36px;
     margin-left: 6px;
     margin-top: 28px;
@@ -520,7 +524,8 @@ svg .cls-1 {
     display: inline;
     margin: 0px;
   }
-  .div2 li input[type="submit"] {
+  .div2 li input[type="submit"],
+  .div2 li input[type="button"] {
     width: 105px;
     height: 36px;
     text-align: center;
