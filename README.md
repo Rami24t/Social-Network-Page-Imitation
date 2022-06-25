@@ -18,7 +18,8 @@
 ## Antonio:
 - Make a facebook page inside facebook. Deadline: Sunday 26/Jun/2022
 - Prepare the presentation of your work and your page: Deadline: Monday 27/Jun/2022
-- 
+
+
 Tips: 
 - Use the help of all the designs, plans, styles, mockups, and help provided by this readme file by the other team member
 - Attend team meetings
