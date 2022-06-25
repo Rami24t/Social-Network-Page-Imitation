@@ -94,7 +94,8 @@ body {
   line-height: 18px;
   cursor: pointer;
 }
-.header input[type="submit"]:hover {
+.header input[type="submit"]:hover,
+.header input[type="button"]:hover {
   background-color: #365899;
 }
 
@@ -213,11 +214,13 @@ body {
   display: inline-block;
   cursor: pointer;
 }
-.div2 input[type="submit"]:hover {
+.div2 input[type="submit"]:hover,
+.div2 input[type="button"]:hover {
   background-color: #36a420;
   border: none;
 }
-.div2 input[type="submit"]:active {
+.div2 input[type="submit"]:active,
+.div2 input[type="button"]:active {
   box-shadow: 0 0 3 #045fb4;
 }
 .div2 .create_page {
@@ -356,7 +359,7 @@ svg .cls-1 {
     max-width: 230px;
     height: auto;
     float: none;
-    filter: blur(0.5px);
+    filter: blur(0.5px) saturate(0%) grayscale(1) brightness(9);
   }
   .header li {
     float: none;
@@ -540,11 +543,13 @@ svg .cls-1 {
     display: inline-block;
     cursor: pointer;
   }
-  .div2 input[type="submit"]:hover {
+  .div2 input[type="submit"]:hover,
+  .div2 input[type="button"]:hover {
     background-color: #36a420;
     border: none;
   }
-  .div2 input[type="submit"]:active {
+  .div2 input[type="submit"]:active,
+  .div2 input[type="button"]:active {
     box-shadow: 0 0 3 #045fb4;
   }
   .div2 .create_page {
