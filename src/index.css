@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "FB-Logo";
+  src: url("./Fonts/Klavika/klavika-bold.otf");
+}
+
 body {
   position: relative;
   text-align: center;
@@ -33,7 +38,7 @@ body {
   height: auto;
   float: left;
   overflow: hidden;
-  background-image: url("./imgs/logo/fb-logo.svg");
+  /* background-image: url("./imgs/logo/fb-logo.svg"); */
   background-repeat: no-repeat;
   background-size: contain;
   filter: blur(0.5px) saturate(0%) grayscale(1) brightness(9);
