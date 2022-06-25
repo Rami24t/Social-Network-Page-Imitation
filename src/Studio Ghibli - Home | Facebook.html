@@ -8,33 +8,54 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
-    <link rel="stylesheet" href="styleAntonio.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="styleRami.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Studio Ghibli - Home | Facebook</title>
   </head>
-  <body class="fluid-container">
+  <body class="container-full">
     <header class="header-top">
-      <div class="header-top-1 flex between sticky-top w-100p">
-        <div class="logo text-blue font-logo text-[3.2rem]">facebook</div>
-        <div class="form flex">
+      <div
+        class="header-top-1 sticky top-0 inset-y-0 flex between sticky-top max-w-[99%] mx-auto"
+      >
+        <div
+          class="text-[#4a4ef8] font-logo text-[1.9rem] mt-[9px] mr-auto opacity-90 ml-1"
+        >
+          f
+          <img
+            class="inline h-[1.5rem] mt-[-8px] mx-[-6px]"
+            src="./imgs/logo/fba.png"
+            alt=""
+          />
+          cebook
+        </div>
+        <div class="flex mt-[8px] align-items-center min-h-[56px]">
           <input
             type="text"
-            class="desktop-only"
+            class="form-input hidden xmd:block caret-blue focus:caret-indigo-500 placeholder:text-slate-300 bg-white border border-slate-300 rounded-md px-4 shadow-sm focus:outline-none focus:border-blue sm:text-sm w-[188px] h-[40px]"
             placeholder="Email or phone"
+            required
           />
           <input
-            type="text"
-            class="desktop-only"
+            class="mx-2 form-input hidden xmd:block caret-blue focus:caret-indigo-500 placeholder:text-slate-300 bg-white border border-slate-300 rounded-md px-4 shadow-sm focus:outline-none focus:border-blue sm:text-sm w-[188px] h-[40px]"
+            name="password"
             type="password"
             placeholder="Password"
+            required
           />
           <a href="">
-            <div class="button login bg-blue"></div>
+            <button
+              class="bg-blue text-sm text-white w-[69px] h-[38px] font-bold rounded pb-2"
+            >
+              Log In
+            </button>
           </a>
-          <div class="link desktop-only font-['FB-logo']">
-            <a href="#">Forgot Account?</a>
+          <div
+            class="link mx-2 my-1 text-sm text-blue desktop-only hidden xmd:block"
+          >
+            <a class="hover:pointer hover:underline" href="#"
+              >Forgot Account?</a
+            >
           </div>
         </div>
       </div>
@@ -50,40 +71,59 @@
               <p>Studio Ghibli</p>
             </div>
             <div class="flex">
-              <div class="flex gap-2 button send-message bg-blue">
-                <i class="fa-brands fa-facebook-messenger"></i>
-                <div>Send message</div>
-              </div>
+              <button
+                class="bg-blue text-sm text-white pt-1 w-[208px] h-[36px] font-bold rounded-md pb-2"
+              >
+                <i class="fa-brands fa-facebook-messenger text-[1rem]"> </i>
+                Send message
+              </button>
               <div>...</div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
       </div>
-      <header class="main-header max-w-screen-xmd mx-auto">
-      <div class="cover">
-        <img class="rounded-lg " src="./imgs/Ghibli-imgs/cover.jpg" alt="">
-      </div>
-      <div class="main-banner flex between mx-7">
-        <div class="avatar-container flex">
-          <div class="logo">
-            <img class="w-[140px] rounded-full mt-[-16px] border-[4px] border-white h-" src="./imgs/Ghibli-imgs/Avatar.jpg" alt="page's avatar image - totoro">
+      <!-- </div>
+      </div> -->
+      <div
+        class="main-header-wrapper bg-gradient-to-b from-neutral-300 to-white"
+      >
+        <header class="main-header max-w-screen-xmd mx-auto bg-white">
+          <div class="cover w-[940px] h-[362px] overflow-hidden rounded-lg">
+            <img class="w-[940px]" src="./imgs/Ghibli-imgs/cover.jpg" alt="" />
           </div>
-          <div class="title">
-            <h1 class="font-bold text-3xl f-align-center">Studio Ghibli</h1>
-            <p>@GhibliStudio . Community</p>
+          <div class="main-banner flex min-h-[134px] mx-auto max-w-[950px]">
+            <div
+              class="avatar-container flex justify-self-start align-self-start h-[134px] w-[884px]"
+            >
+              <div class="logo">
+                <img
+                  class="w-[140px] rounded-full mt-[-16px] border-[4px] border-white h-"
+                  src="./imgs/Ghibli-imgs/Avatar.jpg"
+                  alt="page's avatar image - totoro"
+                />
+              </div>
+              <div class="title align-self-end mt-7">
+                <h1 class="font-bold text-3xl">Studio Ghibli</h1>
+                <p class="text-neutral-500">
+                  @GhibliStudio
+                  <span class="translate-y-0">.</span> Community
+                </p>
+              </div>
+            </div>
+            <div class="message-wrapper justify-self-end align-self-end mt-14">
+              <button
+                class="bg-blue text-white pt-1 w-[313px] h-[40px] font-bold rounded-md pb-3"
+              >
+                <i class="fa-brands fa-facebook-messenger text-[1rem]"> </i>
+                Send message
+              </button>
+              <p class="text-neutral-600 text-1 text-[0.8rem] text-center mt-1">
+                Hi! Please let us know how we can help.
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="message-wrapper">
-          <button class=" bg-blue  text-white py-2 px-20 font-bold rounded-lg">                <i class="fa-brands fa-facebook-messenger"></i>
-            Send message</button>
-            <p class="text-gray text-1 text-sm">Hi! Please let us know how we can help.</p>
-        </div>
+        </header>
       </div>
-    
-      
-      </header>
       <aside class="aside">
         <section class="aside-section"></section>
         <section class="aside-section"></section>
@@ -103,13 +143,11 @@
       tailwind.config = {
         theme: {
           screens: {
-              xmd: "907px",
-            },
+            xmd: "907px",
+            sm: "480px",
+            lg: "950px",
+          },
           extend: {
-            screens: {
-              sm: "480px",
-              lg: "950px",
-            },
             colors: {
               blue: "#1b74e4",
               green: "#31a24c",
