@@ -80,7 +80,8 @@ body {
   height: 22px;
   padding-left: 8px;
 }
-.header .login-form input[type="submit"] {
+.header .login-form input[type="submit"],
+.header .login-form input[type="button"] {
   font-weight: bold;
   height: 26px;
   margin: 0%;
@@ -93,7 +94,8 @@ body {
   line-height: 18px;
   cursor: pointer;
 }
-.header input[type="submit"]:hover {
+.header input[type="submit"]:hover,
+.header input[type="button"]:hover {
   background-color: #365899;
 }
 
@@ -196,7 +198,8 @@ body {
   display: inline;
   margin: 0px;
 }
-.div2 li input[type="submit"] {
+.div2 li input[type="submit"],
+.div2 li input[type="button"] {
   width: 205px;
   height: 45px;
   text-align: center;
@@ -211,11 +214,13 @@ body {
   display: inline-block;
   cursor: pointer;
 }
-.div2 input[type="submit"]:hover {
+.div2 input[type="submit"]:hover,
+.div2 input[type="button"]:hover {
   background-color: #36a420;
   border: none;
 }
-.div2 input[type="submit"]:active {
+.div2 input[type="submit"]:active,
+.div2 input[type="button"]:active {
   box-shadow: 0 0 3 #045fb4;
 }
 .div2 .create_page {
@@ -354,7 +359,7 @@ svg .cls-1 {
     max-width: 230px;
     height: auto;
     float: none;
-    filter: blur(0.5px);
+    filter: blur(0.5px) saturate(0%) grayscale(1) brightness(9);
   }
   .header li {
     float: none;
@@ -381,7 +386,8 @@ svg .cls-1 {
     padding-left: 8px;
     width: 90%;
   }
-  .header .login-form input[type="submit"] {
+  .header .login-form input[type="submit"],
+  .header .login-form input[type="button"] {
     height: 30px;
     margin: 0%;
     margin-right: 0%;
@@ -412,7 +418,8 @@ svg .cls-1 {
     width: 93%;
     height: 26px;
   }
-  .header .login-form input[type="submit"] {
+  .header .login-form input[type="submit"],
+  .header .login-form input[type="button"] {
     height: 36px;
     margin-left: 6px;
     margin-top: 28px;
@@ -520,7 +527,8 @@ svg .cls-1 {
     display: inline;
     margin: 0px;
   }
-  .div2 li input[type="submit"] {
+  .div2 li input[type="submit"],
+  .div2 li input[type="button"] {
     width: 105px;
     height: 36px;
     text-align: center;
@@ -535,11 +543,13 @@ svg .cls-1 {
     display: inline-block;
     cursor: pointer;
   }
-  .div2 input[type="submit"]:hover {
+  .div2 input[type="submit"]:hover,
+  .div2 input[type="button"]:hover {
     background-color: #36a420;
     border: none;
   }
-  .div2 input[type="submit"]:active {
+  .div2 input[type="submit"]:active,
+  .div2 input[type="button"]:active {
     box-shadow: 0 0 3 #045fb4;
   }
   .div2 .create_page {
