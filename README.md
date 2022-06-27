@@ -28,17 +28,17 @@ Tips:
 
 
 
-# Facebook Pages Imitation
+# Social network Pages Imitation
 
 
 
-## Imitation of the famous FB home page and of a FB Page inside facebook - DCI Group project (June 23.2022)
+## Imitation of the famous social network home page and of a Page inside it - DCI Group project (June 23.2022)
 
 
 
 ### Part 1:
 
-- Do an imitation of the facebook landing page.
+- Do an imitation of the social network's landing page.
 - Make it look good on all screen sizes.
 
 #### Mockups:
@@ -56,7 +56,7 @@ Tips:
 
 ### Part 2:
 
-- Do an imitation of any FB page design in 2022 mainly using CSS.
+- Do an imitation of one social network page design in 2022 mainly using CSS and HTML.
 - Make it look good on all screen sizes.
 
 #### Mockup images:
