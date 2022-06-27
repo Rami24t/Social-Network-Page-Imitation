@@ -1,5 +1,5 @@
 - link: https://github.com/Rami24t/Social-Network-Page-Imitation
-- live solution link: 
+- live solution link: https://rami24t.github.io/Social-Network-Page-Imitation/ 
 
 # Project Work
 
