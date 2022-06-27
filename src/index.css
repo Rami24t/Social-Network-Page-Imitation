@@ -44,7 +44,15 @@ body {
   filter: blur(0.5px);
   /* filter: blur(0.5px) saturate(0%) grayscale(1) brightness(9); */
   margin-top: 10px;
+  animation: logo1 2s alternate 1s infinite;
 }
+@keyframes logo1 {
+  to {
+    filter: blur(0.5px) brightness(1.4);
+    transform: scale(1.04);
+  }
+}
+
 .header li {
   list-style-type: none;
   float: left;
@@ -125,6 +133,10 @@ body {
   margin: 0px;
   margin-bottom: 4px;
   color: #10406c;
+}
+
+.div1 img {
+  width: 100%; /* Width of new image */
 }
 .div2 {
   margin-top: 10px;
