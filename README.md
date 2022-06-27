@@ -14,6 +14,7 @@
 - Make the famous FB landindg home page. Deadline: Sunday 26/Jun/2022
 - Prepare and explain basic html structure and basic css structure for the other page that the other team member is working on
 - Prepare the presentation of your work and your page: Deadline: Monday 27/Jun/2022
+- Help with the making of and the presentation of the other pages.
 
 ## Antonio:
 - Make a facebook page inside facebook. Deadline: Sunday 26/Jun/2022
