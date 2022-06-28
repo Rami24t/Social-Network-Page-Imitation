@@ -1,3 +1,20 @@
+# Social media pages between 2005 and 2022 by Rami and Antonio
+
+## Antonio's Part:
+
+### Pink Panther - Social Page
+- Pink Panther - Social Page
+- Imitation of a social network page designs around 2010. 
+- Stacks mainly used: pure CSS and HTML
+
+## Rami's Part:
+
+### Social - Landing page & Studio Ghibli - Social Page
+- Social Home Page
+- Stacks used: pure CSS and HTML
+- Studio Ghibli - Social Page
+- Stacks mainly used: Tailwind , CSS, and HTML
+
 - link: https://github.com/Rami24t/Social-Network-Page-Imitation
 - live solution link: https://rami24t.github.io/Social-Network-Page-Imitation/
 
@@ -16,17 +33,16 @@
 - Invite team for meetings 2 times a day on: 24, 25, and 26.Jun.
 - Make the famous FB landindg home page. Deadline: Sunday 26/Jun/2022
 - Prepare and explain basic html structure and basic css structure for the other page that the other team member is working on
-- Prepare the presentation of your work and your page: Deadline: Monday 27/Jun/2022
+- Prepare the presentation of your work and your page.
 - Help with the making of and the presentation of the other pages.
 
 ## Antonio:
 
 - Prepare plans and designs a and give tips for implementation.
 - Give suppport and help in the implementation of the other page.
-- Make snapshots and designs for both planned pages.
-- Make a styles.md file
+- Make snapshots and designs.
 - Make a facebook page inside facebook (The Pink Panther Facebook site)
-- Prepare the presentation of your work and your page: Deadline: Monday 27/Jun/2022
+- Prepare the presentation of your work and your page.
 
 Tips:
 
