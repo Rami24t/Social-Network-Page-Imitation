@@ -14,6 +14,7 @@
 - Stacks used: pure CSS and HTML
 - Studio Ghibli - Social Page
 - Stacks mainly used: Tailwind , CSS, and HTML
+- Making of the needed raw materials such as the logo and icon.
 
 - link: https://github.com/Rami24t/Social-Network-Page-Imitation
 - live solution link: https://rami24t.github.io/Social-Network-Page-Imitation/
