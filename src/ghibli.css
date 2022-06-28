@@ -1,0 +1,410 @@
+/* CSS Styling sheet for Studio Ghibli - Home | Social Page */
+/* coded by Rami Al-Saadi */
+
+/*CSS Reset */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Font */
+@font-face {
+  font-family: "S-Logo";
+  src: url("./Fonts/Klavika/klavika-bold.otf");
+}
+
+/* Vars */
+html:root {
+  /* Tod shadow */
+  --dark-grey1-fb: #575757;
+  /* background of main */
+  --grey2-fb: #f0f2f5;
+  /* Button Grey ... */
+  --grey4-fb: #e4e6eb;
+  /* Button BG Colors*/
+  --blue1-fb: #1b74e4;
+  --green1-fb: #31a24c;
+  /* Button-text Color */
+  --btn-text: #fff;
+  /* Comments BG */
+  --grey5-fb: #92979c;
+  --grey6-fb: #65676b;
+}
+
+/* CSS  */
+body {
+  font-size: 1.1rem;
+  background-color: var(--grey2-fb);
+  font-family: Helvetica;
+}
+
+.logo {
+  font-family: "S-logo", "logo";
+  font-weight: bold;
+  color: var(--blue1-fb);
+}
+.font-logo {
+  user-select: none;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.absolute-top {
+  display: absolute;
+  top: 0%;
+}
+
+.bg-blue {
+  background-color: var(--blue1-fb);
+}
+
+.w-100p {
+  width: 100%;
+}
+
+aside div.overflow-hidden img {
+  border-radius: 2%;
+}
+
+.main-container {
+  max-width: 876px;
+  margin: auto;
+  background-color: var(--grey4-fb);
+}
+.fluid-container {
+  max-width: 98%;
+  margin: auto;
+}
+.button {
+  text-align: center;
+  color: var(--btn-text);
+}
+
+.sticky-top {
+  position: sticky;
+  top: 0%;
+}
+
+.send-message {
+  padding: 6px;
+}
+
+.fa-Social::after {
+  content: "S";
+  background-color: #3e64ab;
+  background: linear-gradient(to top, #1877f2, #ecf);
+  font-family: S-Logo;
+  color: white;
+  padding: 6px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 0px;
+  border-radius: 50%;
+  font-weight: bold;
+  display: inline-block;
+  transform: rotate(9deg);
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+div.commentR:focus-within + div.absolute {
+  display: none;
+}
+
+.main-header {
+  background-color: white;
+}
+.main-header-wrapper {
+  box-shadow: #65676b3a 0 1px 2px;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+button {
+  background-color: #1b74e4;
+  color: white;
+  border: none;
+  width: auto;
+  height: 2rem;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #3b87e4;
+}
+
+input {
+  width: auto;
+  height: 2rem;
+  border-radius: 5px;
+}
+
+.link1 {
+  text-decoration: none;
+  color: #1b74e4;
+  margin-bottom: 1rem;
+}
+
+.link1:hover {
+  text-decoration: underline;
+}
+.bgsg {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.bg-sg {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.info-basic {
+  display: flex;
+  margin-left: 27%;
+  margin-right: 27%;
+  align-items: center;
+}
+h3 {
+  color: #65676b;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  height: 100%;
+  width: 8.5rem;
+  border: white solid 5px;
+  margin-right: 2rem;
+  margin-top: -1.5rem;
+}
+
+.info-basic2 {
+  margin-right: 8rem;
+}
+
+.aside-section {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.flex-aside {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-solid {
+  margin-right: 0.5rem;
+  color: #65676b;
+}
+.fa-circle-info {
+  padding-top: 1%;
+}
+
+.icons-flex {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.fa-flag {
+  color: #65676b;
+}
+
+.section-main {
+  width: 50%;
+}
+.posts {
+  border-radius: 10px;
+  margin-bottom: auto;
+  gap: 1rem;
+}
+
+.post-cont:first-child {
+  margin-top: 0;
+}
+div.p-5.py-4.shadow-md h3:hover,
+img,
+article h2:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.icon-post {
+  height: 90%;
+  width: 3rem;
+  border-radius: 50%;
+}
+.flex-aside2 {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.post-body {
+  margin-top: 0.8rem;
+}
+
+.fa-thumbs-up {
+  border-radius: 50%;
+  color: #65676b;
+}
+
+.border-post {
+  border-bottom: #e5e6ea 1px solid;
+  padding-top: 5px;
+  margin-bottom: 7px;
+}
+.border-top {
+  border-top: #e5e6ea 1px solid;
+}
+
+.flex-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  height: 2.8rem;
+}
+
+.flex-3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.little-btn {
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-post-prof {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  margin-right: 0.3rem;
+}
+@media only screen and (max-width: 1255px) {
+  .content-wrapper {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 881px) {
+  .content-wrapper {
+    display: block;
+  }
+  .content-wrapper > section,
+  .content-wrapper aside {
+    width: 70%;
+    margin: auto;
+    min-width: 210px;
+    margin-top: 12px;
+  }
+  .absolute {
+    display: none;
+  }
+  .main-banner {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 701px) {
+  .message-wrapper {
+    margin: 0px !important;
+  }
+  .content-wrapper {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 533px) {
+  .main-banner {
+    flex-direction: column;
+  }
+  .message-wrapper {
+    margin: 0px;
+    padding: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  }
+  nav ul {
+    flex-wrap: wrap;
+  }
+  .content-wrapper > section,
+  .content-wrapper aside {
+    width: 90%;
+    margin: auto;
+    min-width: 210px;
+    margin-top: 12px;
+  }
+}
+@media only screen and (max-width: 490px) {
+  nav ul li:nth-last-of-type(4) {
+    display: none;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .little-btn p {
+    display: none;
+  }
+  .p-2.border-b.text-lg.flex.space-between p:not(p:first-child) {
+    display: none;
+  }
+  .content-wrapper {
+    width: 100% !important;
+  }
+  .content-wrapper > section,
+  .content-wrapper aside {
+    width: 100% !important;
+    margin: auto;
+    min-width: 210px;
+    margin-top: 12px;
+  }
+  nav ul li:nth-last-of-type(3) {
+    display: none;
+  }
+  .message-wrapper button {
+    width: 100%;
+  }
+  .title {
+    margin-top: 6vw;
+  }
+}
+
+/* Coded by Rami Al-Saadi in June/2022 */

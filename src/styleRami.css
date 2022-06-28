@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "FB-Logo";
+  font-family: "S-Logo";
   src: url("./Fonts/Klavika/klavika-bold.otf");
 }
 
@@ -25,13 +25,9 @@ body {
 }
 
 .logo {
-  font-family: "FB-logo", "logo";
+  font-family: "S-logo", "logo";
   font-weight: bold;
   color: var(--blue1-fb);
-}
-
-.flex {
-  display: flex;
 }
 
 .between {
