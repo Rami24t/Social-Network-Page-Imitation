@@ -14,7 +14,7 @@
 
 ### Imitating a 2009 Pinkpanther Page page:
 
-- live solution link: https://rami24t.github.io/Social-Network-Page-Imitation/PinkPanther-SocialPage.html (
+- live solution link: https://rami24t.github.io/Social-Network-Page-Imitation/PinkPanther-SocialPage.html 
 
 ## Project Work
 
