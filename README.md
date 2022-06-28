@@ -3,10 +3,21 @@
 ## Antonio's Part:
 
 ### Pink Panther - Social Page
+
+
 - Pink Panther - Social Page
+
+
 - Imitation of a social network page designs around 2010. 
+
+
 - Stacks mainly used: pure CSS and HTML
+
+
 - Gathering needed raw material such as icons.
+
+
+
 
 ## Rami's Part:
 
