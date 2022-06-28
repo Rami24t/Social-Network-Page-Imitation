@@ -71,6 +71,8 @@
 - Prepare the presentation of your work and your page.
 - Make the Sudio Ghibli Page.
 - Make necessary icons, logos, and images.
+- Take screenshots of the result of your work.
+
 
 Tips and Hints:
 
