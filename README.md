@@ -1,52 +1,46 @@
 # Social media pages designs between 2005 and 2022 project made by Rami Al-Saadi and Antonio Mena
 
-
 ## Final Solution:
 
-###  link: https://github.com/Rami24t/Social-Network-Page-Imitation
+### link: https://github.com/Rami24t/Social-Network-Page-Imitation
 
 ### Studio Ghibli - Social Network fan Page in 2022 Design using CSS, Tailwind, and HTML.
+
 - My live solution link: https://rami24t.github.io/Social-Network-Page-Imitation/StudioGhibli-SocialPage.html
 
 ### Imitating the social network's landing page design:
-- live solution link: https://rami24t.github.io/Social-Network-Page-Imitation/ 
+
+- live solution link: https://rami24t.github.io/Social-Network-Page-Imitation/
 
 ### Imitating a 2009 Pinkpanther Page page:
+
 - live solution link: https://rami24t.github.io/Social-Network-Page-Imitation/PinkPanther-SocialPage.html (
 
-
 ## Project Work
-
 
 ### Antonio's Part:
 
 #### Pink Panther - Social Page
 
-
 - Pink Panther - Social Page
 
-
-- Imitation of a social network page designs around 2010. 
-
+- Imitation of a social network page designs around 2010.
 
 - Stacks mainly used: pure CSS and HTML
 
-
 - Gathering needed raw material such as icons.
 
-
-
+- Snapshots of results: https://github.com/Rami24t/Social-Network-Page-Imitation/tree/main/ScreenShots%20-%20Antonio
 
 ### Rami's Part:
 
 #### Social - Landing page & Studio Ghibli - Social Page
+
 - Social Home Page
 - Studio Ghibli - Social Page
 - Stacks mainly used: Tailwind , CSS, and HTML
 - Making of the needed raw materials such as the logo and icon.
-
-
-
+- Snapshots of results on various screen sizes: https://github.com/Rami24t/Social-Network-Page-Imitation/tree/main/Snapshots%20-%20Rami
 
 ## Project Tasks:
 
@@ -72,7 +66,6 @@
 - Make the Sudio Ghibli Page.
 - Make necessary icons, logos, and images.
 - Take screenshots of the result of your work.
-
 
 Tips and Hints:
 
@@ -100,15 +93,13 @@ Tips and Hints:
 
 #### Part 2:
 
-- Do an imitation of one social network page design in 2022 mainly using Tailwind,  CSS and HTML.
+- Do an imitation of one social network page design in 2022 mainly using Tailwind, CSS and HTML.
 - Make it look good on all screen sizes.
-
 
 #### Part 3:
 
 - Do an imitation of one social network page design in 2008 using CSS and HTML.
 - Make it look good on all screen sizes.
-
 
 ##### Mockup images:
 
