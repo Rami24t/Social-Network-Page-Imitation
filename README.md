@@ -27,6 +27,8 @@
 - Stacks mainly used: Tailwind , CSS, and HTML
 - Making of the needed raw materials such as the logo and icon.
 
+## Final Solution:
+
 - link: https://github.com/Rami24t/Social-Network-Page-Imitation
 - live solution link: https://rami24t.github.io/Social-Network-Page-Imitation/
 
