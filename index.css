@@ -1,5 +1,7 @@
+/* Style sheet for a Social Network Landing/Home Page (for index.html)*/
+
 @font-face {
-  font-family: "FB-Logo";
+  font-family: "S-Logo";
   src: url("./Fonts/Klavika/klavika-bold.otf");
 }
 
@@ -9,7 +11,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0px;
-  font-family: Helvetica, sans-serif, verdana, sans-serif;
+  font-family: Helvetica, verdana, sans-serif;
   background-color: #e9ebee;
   min-height: 100vh;
   overflow: auto;
@@ -33,12 +35,12 @@ body {
   padding: 0px;
   padding-right: 24px;
 }
-.fb-logo {
+.S-logo {
   width: 230px;
   height: auto;
   float: left;
   overflow: hidden;
-  /* background-image: url("./imgs/logo/fb-logo.svg"); */
+  /* background-image: url("./imgs/logo/S-logo.svg"); */
   background-repeat: no-repeat;
   background-size: contain;
   filter: blur(0.5px);
@@ -159,8 +161,9 @@ body {
   list-style-type: none;
   margin-top: 10px;
   width: 100%;
+  color: #000000d3;
+  font-size: 18px;
 }
-
 .div2 li input[type="text"] {
   width: 97%;
   height: 40px;
@@ -199,10 +202,7 @@ body {
   display: inline-block;
   line-height: 15px;
 }
-.div2 li {
-  color: #000000d3;
-  font-size: 18px;
-}
+
 .div2 .terms {
   color: #424242;
   font-size: 11px;
@@ -346,7 +346,7 @@ svg .cls-1 {
   body {
     overflow-x: hidden;
   }
-  .header .fb-logo,
+  .header .S-logo,
   .header .login-form,
   .header li {
     float: none;
@@ -368,7 +368,7 @@ svg .cls-1 {
     padding: 0;
     width: 92%;
   }
-  .fb-logo {
+  .S-logo {
     max-width: 230px;
     height: auto;
     float: none;
@@ -413,7 +413,7 @@ svg .cls-1 {
   }
 }
 @media only screen and (max-width: 500px) {
-  .fb-logo {
+  .S-logo {
     margin: 12px auto;
     width: 50%;
   }
@@ -486,8 +486,9 @@ svg .cls-1 {
     list-style-type: none;
     margin-top: 10px;
     width: 100%;
+    color: #000000d3;
+    font-size: 18px;
   }
-
   .div2 li input[type="text"] {
     width: 97%;
     height: 40px;
@@ -529,10 +530,7 @@ svg .cls-1 {
     display: inline-block;
     line-height: 15px;
   }
-  .div2 li {
-    color: #000000d3;
-    font-size: 18px;
-  }
+
   .div2 .terms {
     color: #424242;
     font-size: 11px;
@@ -598,3 +596,5 @@ svg .cls-1 {
     margin: initial auto;
   }
 }
+
+/* Coded by Rami Al-Saadi in June/2022 */
