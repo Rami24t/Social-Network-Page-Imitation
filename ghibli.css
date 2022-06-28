@@ -75,6 +75,9 @@ body {
   font-weight: bold;
   color: var(--blue1-fb);
 }
+.logo:hover {
+  opacity: 0.96;
+}
 .font-logo {
   user-select: none;
 }

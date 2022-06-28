@@ -1,0 +1,3414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Studio Ghibli Social Network fan Page HTML/CSS/Tailwind Design/Coding/Implementation"
+    />
+    <meta
+      name="keywords"
+      content="Rami Al-Saadi, HTML, CSS, Tailwind Project"
+    />
+    <meta name="author" content="Rami Al-Saadi" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="ghibli.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Studio Ghibli - Home | Social</title>
+    <link
+      rel="shortcut icon"
+      href="./imgs/SocialFaviconbyRami.png"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body class="container-full">
+    <header class="bg-white">
+      <div
+        class="header-top-1 sticky top-0 inset-y-0 flex items-center content-between sticky-top max-w-[95%] mx-auto"
+      >
+        <div
+          class="text-[#4a4ef8] font-logo text-[2.2rem] mt-[9px] mr-auto opacity-90 ml-1"
+        >
+          Social
+        </div>
+        <div class="flex pt-[9px] align-center min-h-[57px]">
+          <input
+            type="text"
+            class="form-input hidden xmd:block caret-blue focus:caret-indigo-500 placeholder:text-slate-300 bg-white border border-slate-300 rounded-md px-4 shadow-md focus:outline-none focus:border-blue sm:text-[1.05rem] w-[188px] h-[40px]"
+            placeholder="Email or phone"
+            required
+          />
+          <input
+            class="mx-2 form-input hidden xmd:block caret-blue focus:caret-indigo-500 placeholder:text-slate-300 bg-white border border-slate-300 rounded-md px-4 shadow-md focus:outline-none focus:border-blue sm:text-[1.05rem] w-[188px] h-[40px]"
+            name="password"
+            type="password"
+            placeholder="Password"
+            required
+          />
+          <a href="">
+            <button
+              class="bg-blue text-[1rem] text-white w-[72px] h-[40px] font-bold rounded-lg p-2 pb-3"
+            >
+              Log In
+            </button>
+          </a>
+          <div
+            class="link ml-3 my-1 text-[1.03rem] text-blue desktop-only hidden xmd:block"
+          >
+            <a class="hover:pointer hover:underline" href="#"
+              >Forgot Account?</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="on-hover">
+        <div class="hidden header-top-2 absolute-top w-100p">
+          <div class="main-container flex between">
+            <div class="flex">
+              <div class="main-mini-logo">
+                <img src="./imgs/Ghibli-imgs/Avatar.jpg" alt="avatar image" />
+              </div>
+              <p>Studio Ghibli</p>
+            </div>
+            <div class="flex">
+              <button
+                class="bg-blue text-sm text-white pt-1 w-[208px] h-[36px] font-bold rounded-md pb-2"
+              >
+                <i class="fa-brands fa-facebook-messenger text-[1rem]"> </i>
+                Send message
+              </button>
+              <div>...</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="main-header-wrapper bg-gradient-to-b from-neutral-300 to-white"
+      >
+        <header
+          class="main-header max-w-screen-xmd mx-auto bg-gradient-to-b from-neutral-300 to-white"
+        >
+          <div
+            class="cover w-[100%] min-w-[300px] overflow-hidden rounded-b-lg"
+          >
+            <img
+              class="w-[940px]"
+              src="./imgs/Ghibli-imgs/cover.jpg"
+              alt="cover image"
+            />
+          </div>
+          <div
+            class="main-banner flex min-h-[134px] mx-auto max-w-[950px] px-2"
+          >
+            <div
+              class="avatar-container flex justify-self-start align-self-start h-[134px] mr-2"
+            >
+              <div class="logo">
+                <img
+                  class="w-[140px] rounded-full mt-[-16px] border-[4px] border-white h-"
+                  src="./imgs/Ghibli-imgs/Avatar.jpg"
+                  alt="page's avatar image - totoro"
+                />
+              </div>
+              <div class="title align-self-end mt-7">
+                <h1 class="font-bold text-3xl">Studio Ghibli</h1>
+                <p class="text-neutral-500">
+                  @GhibliStudio
+                  <span class="translate-y-[-20%] inline-block">.</span>
+                  Community
+                </p>
+              </div>
+            </div>
+            <div class="message-wrapper mt-14 ml-auto">
+              <button
+                class="bg-blue text-white pt-1 w-[313px] h-[40px] font-bold rounded-md pb-1"
+              >
+                <i class="fa-brands fa-facebook-messenger text-[1rem]"> </i>
+                Send message
+              </button>
+              <p class="text-neutral-600 text-1 text-[0.8rem] text-center mt-1">
+                Hi! Please let us know how we can help.
+              </p>
+            </div>
+          </div>
+          <nav class="clearfix">
+            <ul
+              class="flex font-bold text-[#65676b] min-h-[60px] border-top border-neutral-300 items-center p-1"
+            >
+              <li class="h-[100%] m-1 border-b-2 border-blue">
+                <a
+                  class="text-blue hover:text-neutral-600 cursor-pointer text-[1.04rem] p-3 hover:bg-neutral-100 rounded"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="h-[100%] m-1">
+                <a
+                  class="cursor-pointer text-[1.04rem] p-3 hover:bg-neutral-100 rounded hover:text-neutral-600"
+                  href=""
+                  >About</a
+                >
+              </li>
+              <li class="h-[100%] m-1">
+                <a
+                  class="cursor-pointer text-[1.04rem] p-3 hover:bg-neutral-100 rounded hover:text-neutral-600"
+                  href=""
+                  >Videos</a
+                >
+              </li>
+              <li class="h-[100%] m-1">
+                <a
+                  class="cursor-pointer text-[1.04rem] p-3 hover:bg-neutral-100 rounded hover:text-neutral-600"
+                  href=""
+                  >Photos</a
+                >
+              </li>
+              <li class="h-[100%] m-1">
+                <a
+                  class="cursor-pointer text-[1.04rem] p-3 hover:bg-neutral-100 rounded hover:text-neutral-600"
+                  href=""
+                  >More <i class="fa-solid fa-caret-down text-sm"></i
+                ></a>
+              </li>
+              <li class="ml-auto">
+                <p
+                  class="bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded hover:bg-neutral-300 cursor-pointer text-black mr-1"
+                >
+                  ...
+                </p>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+      <div
+        class="content-wrapper p-3 m-1 bg-gray_light flex flex-wrap w-[70%] mx-auto"
+      >
+        <aside class="min-w-[333px] w-[39%]">
+          <section class="aside-section mb-4">
+            <div class="p-5 py-4 shadow-md">
+              <div class="flex-aside">
+                <h2 class="font-bold text-xl">About</h2>
+                <a class="link1 text-[0.96rem]" href="#">See all</a>
+              </div>
+              <div class="icons-flex">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>2,565,970 people like this</p>
+              </div>
+              <div class="icons-flex">
+                <i class="fa-solid fa-check-to-slot"></i>
+                <p>2,610,341 follow this</p>
+              </div>
+              <div class="icons-flex">
+                <i class="fa-solid fa-folder-closed"></i>
+                <a class="link1" href="#">Community</a>
+              </div>
+            </div>
+          </section>
+          <section class="aside-section mt-5">
+            <div class="p-5 py-4 shadow-md">
+              <div class="flex-aside">
+                <h2 class="font-bold text-xl">Photos</h2>
+                <a class="link1 text-[0.96rem]" href="#">See all</a>
+              </div>
+              <div class="rounded-lg columns-[150px] gap-0 overflow-hidden">
+                <a
+                  href="https://scontent-frt3-1.xx.fbcdn.net/v/t1.6435-9/67117748_457527731475978_1272578589098770432_n.png?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=n8lg9wrvv5wAX-h5q5f&_nc_ht=scontent-frt3-1.xx&oh=00_AT9-42GTLdPGu64xZr2k4U4_Pd2NQMwRwPLZd3d_WV9gdA&oe=62DE7241"
+                >
+                  <div class="h-[160px] m-2 mt-0 overflow-hidden]">
+                    <img
+                      class="w-[100%] h-[100%] rounded-tl"
+                      src="./imgs/Ghibli-imgs/1.png"
+                      alt="photo 1"
+                    />
+                  </div>
+                </a>
+                <a
+                  href="https://scontent-frx5-1.xx.fbcdn.net/v/t1.6435-9/67168094_457526778142740_7010163316072906752_n.png?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=78WmRoO337AAX8o9eS3&_nc_ht=scontent-frx5-1.xx&oh=00_AT9yG-yUvmOG4gOlvOXHBTqtURmpTeTer-0N1kXmcG6uSg&oe=62DECE98"
+                >
+                  <div class="h-[160px] m-2 overflow-hidden]">
+                    <img
+                      class="w-[100%] h-[100%]"
+                      src="./imgs/Ghibli-imgs/2.png"
+                      alt="photo 2"
+                    />
+                  </div>
+                </a>
+                <a
+                  href="https://scontent-frx5-1.xx.fbcdn.net/v/t1.6435-9/67457523_457525378142880_3865960149722071040_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=T4AjRBYs00wAX9vWBFl&_nc_ht=scontent-frx5-1.xx&oh=00_AT94_NefaV8PJuWFMS6PKe9vRh30bZtD79a_g2UJo6Yuww&oe=62DEA25C"
+                >
+                  <div class="h-[160px] m-2 overflow-hidden]">
+                    <img
+                      class="w-[100%] h-[100%]"
+                      src="./imgs//Ghibli-imgs/3.jpg"
+                      alt="photo 3"
+                    />
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="h-[160px] m-2 overflow-hidden]">
+                    <img
+                      class="w-[100%] h-[100%]"
+                      src="./imgs/Ghibli-imgs/4.png"
+                      alt="photo 4"
+                    />
+                  </div>
+                </a>
+                <a
+                  href="https://scontent-frt3-1.xx.fbcdn.net/v/t1.6435-9/67178801_457524391476312_1423862721836744704_n.png?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=G20dxN90bRMAX9b6bGs&_nc_ht=scontent-frt3-1.xx&oh=00_AT_ShijCTTD0qr_0nuvma90l8T1i8V5s3yq_LJTHmqnjLQ&oe=62E0B04A"
+                >
+                  <div class="h-[160px] m-2 overflow-hidden]">
+                    <img
+                      class="w-[100%] h-[100%]"
+                      src="./imgs/StudioGhibli-imgs/8.png"
+                      alt="photo 5"
+                    />
+                  </div>
+                </a>
+                <a href="./imgs/Ghibli-imgs/6.png">
+                  <div class="h-[160px] m-2 overflow-hidden]">
+                    <img
+                      class="w-[100%] h-[100%] rounded-br"
+                      src="./imgs/Ghibli-imgs/6.png"
+                      alt="photo 6"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </section>
+          <section class="aside-section mt-5">
+            <div class="p-5 py-4 shadow-md">
+              <div class="flex-aside">
+                <h2 class="font-bold text-xl">Videos</h2>
+                <a class="link1 text-[0.96rem]" href="#">See all</a>
+              </div>
+              <div>
+                <a
+                  href="https://www.facebook.com/FansOfStudioGhibli/videos/683327931690225/"
+                  ><img
+                    class="overflow-hidden rounded-lg w-[100%] h-[315px] w-[100%] h-[100%] mt-0 pt-0"
+                    src="./imgs/StudioGhibli-imgs/Arriety.jpg"
+                    alt="video thumbnail"
+                  />
+                </a>
+              </div>
+              <p class="font-bold text-xl pt-3 cursor-pointer">
+                <a href="#">Watch this cool clip from a Studio Ghibli movie!</a>
+              </p>
+              <div class="p-1 text-lg">
+                <p>
+                  &#128077; &#128151; &#128561; &nbsp
+                  <span class="text-[1rem]">98</span>
+                </p>
+                <p class="text-neutral-600 cursor-pointer">
+                  6194 views - 1 year ago
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="aside-section mt-5">
+            <div class="p-5 py-4 shadow-md">
+              <div class="flex-aside">
+                <h2 class="font-bold">
+                  <i class="fa-brands fa-Social text-xl"></i> Page transparency
+                </h2>
+                <a class="link1 text-[0.96rem]" href="#">See all</a>
+              </div>
+              <div>
+                <p class="text-neutral-500 text-sm">
+                  Social is showing information to help you better understand
+                  the purpose of a Page. See actions taken by the people who
+                  manage and post content.
+                </p>
+                <p class="mt-3">
+                  <i class="fa-solid fa-flag"></i>
+                  <b> Page created - April 15, 2019 </b>
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="aside-section mt-5">
+            <div class="p-5 py-4 shadow-md">
+              <h2 class="font-bold text-xl">Related Pages</h2>
+              <div
+                class="flex justify-start justify-items-start content-start items-start mt-4 gap-5"
+              >
+                <div>
+                  <img
+                    class="w-[55px] rounded-full border-[1px] border-[#bbb] cursor-pointer"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="page's avatar image - totoro"
+                  />
+                </div>
+                <div class="text-black">
+                  <a
+                    href="https://ghiblicollection.com/filmography"
+                    target="_blank"
+                  >
+                    <h3 class="font-bold text-xl cursor-pointer text-black">
+                      Studio Ghibli
+                    </h3>
+                    <p class="text-neutral-500 text-sm cursor-pointer">
+                      @GhibliStudio
+                      <span
+                        class="translate-y-[-20%] inline-block cursor-pointer"
+                        >.</span
+                      >
+                      Community
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div
+                class="flex justify-start justify-items-start content-start items-start mt-4 gap-5"
+              >
+                <div>
+                  <img
+                    class="w-[55px] rounded-full border-[1px] border-[#bbb] cursor-pointer"
+                    src="./imgs/Ghibli-imgs/HM.jpg"
+                    alt="page's avatar image - totoro"
+                  />
+                </div>
+                <div>
+                  <a href="https://en.wikipedia.org/wiki/Hayao_Miyazaki">
+                    <h3 class="text-black font-bold text-xl cursor-pointer">
+                      Hayao Miyazaki
+                    </h3>
+                    <p class="text-neutral-500 text-sm cursor-pointer">
+                      @HayaoMiyazakiPage
+                      <span class="translate-y-[-20%] inline-block">.</span>
+                      Artist
+                    </p>
+                  </a>
+                </div>
+              </div>
+              <div
+                class="flex justify-start justify-items-start content-start items-start mt-4 gap-5"
+              >
+                <div>
+                  <img
+                    class="w-[55px] rounded-full border-[1px] border-[#bbb] cursor-pointer"
+                    src="./imgs/StudioGhibli-imgs/Pythagoras.jpg"
+                    alt="Pythagoras Page - Avatar Image"
+                  />
+                </div>
+                <div>
+                  <a
+                    href="https://www.facebook.com/Pythagoras-241835472514910/"
+                    target="_blank"
+                  >
+                    <h3 class="font-bold text-xl cursor-pointer text-black">
+                      Pythagoras*
+                    </h3>
+                    <p class="text-neutral-500 text-sm">
+                      @Pythagoras*
+                      <span
+                        class="translate-y-[-20%] inline-block cursor-pointer"
+                        >.</span
+                      >
+                      Song
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <footer class="p-5 py-4 shadow-sm">
+            <div>
+              <p class="text-neutral-500 text-sm">
+                Information about Page Insights Data · Privacy ·
+                Impressum/Terms/NetzDG · Advertising · Ad Choices · Cookies ·
+                coded by Rami Al-Saadi © 2022
+              </p>
+            </div>
+          </footer>
+        </aside>
+
+        <section class="min-w-[487px] w-[61%] overflow-hidden">
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    2 d · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>Princess Mononoke Fan Art!</p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/Ghibli-imgs/post8.png"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128151; &#128561; &nbsp
+                <span class="text-[1rem]"> 139</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                98 6194 shares - 2 days ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    1 w · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>Chihiro!</p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/Ghibli-imgs/post2.png"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128151; &#128077; &#128561; &nbsp
+                <span class="text-[1rem]"> 129</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                89 6194 shares - 1 week ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    1 w · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>Earwig and the Witch!</p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/StudioGhibli-imgs/134914300_915256469213243_902139235991869546_n.jpg"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128561; &#128077; &#128151; &nbsp
+                <span class="text-[1rem]"> 238</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                54 1235 shares - 1 week ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    2 w · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>Beautiful fountain!</p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/Ghibli-imgs/post4.png"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128077; &#128151; &#128561; &nbsp
+                <span class="text-[1rem]"> 439</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                8 614 shares - 2 weeks ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    1 m · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>Reading in nature!</p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/Ghibli-imgs/post5.png"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128077; &#128151; &nbsp
+                <span class="text-[1rem]"> 432</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                9 194 shares - 1 month ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    2 m · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>Spirited Away Fan Art!</p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/Ghibli-imgs/post6.jpg"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128077; &#128561; &nbsp
+                <span class="text-[1rem]"> 154</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                5 6453 shares - 2 months ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    3 m · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>Studiying on the roof!</p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/Ghibli-imgs/post7.png"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128077; &#128151; &#128561; &nbsp
+                <span class="text-[1rem]"> 619</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                614 shares - 3 months ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    4 m · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>Totoro!</p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/Ghibli-imgs/post1.png"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128151; &#128561; &#128077; &nbsp
+                <span class="text-[1rem]"> 999</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                194 shares - 4 months ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    3 y · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>No Face Fan Art!</p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/Ghibli-imgs/post9.png"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128077; &#128151; &#128561; &nbsp
+                <span class="text-[1rem]"> 369</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                94 shares - 3 years ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    1 w · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>
+                You know it is gunna be a magical movie when you see the Studio
+                Ghibli logo!
+              </p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/StudioGhibli-imgs/140883715_3586712831413608_6505209936049002406_n_002.jpg"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128561; &#128077; &#128151; &nbsp
+                <span class="text-[1rem]"> 238</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                54 1235 shares - 1 week ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    1 w · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>Can you guess which movie is this from?!</p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/StudioGhibli-imgs/285713925_5099969620087914_1002843988644258904_n.jpg"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128561; &#128077; &#128151; &nbsp
+                <span class="text-[1rem]"> 238</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                54 1235 shares - 1 week ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    1 w · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>
+                Amazing art and attention to details in the amazing Arriety
+                Movie!
+              </p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/StudioGhibli-imgs/285359102_5099968826754660_3107844861102214847_n.jpg"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128561; &#128077; &#128151; &nbsp
+                <span class="text-[1rem]"> 238</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                54 1235 shares - 1 week ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    1 w · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>The cat Returns!</p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/StudioGhibli-imgs/286097042_5119371834814359_3498778864030087802_n.jpg"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128561; &#128077; &#128151; &nbsp
+                <span class="text-[1rem]"> 238</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                54 1235 shares - 1 week ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    1 w · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>Nausicaa of The valley of the wind!</p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/StudioGhibli-imgs/287741263_5150683161683226_1329530915778068492_n.jpg"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128561; &#128077; &#128151; &nbsp
+                <span class="text-[1rem]"> 238</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                54 1235 shares - 1 week ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    1 w · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>The Masterpiece chaneller himself! Hayao Miyazaki!</p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/StudioGhibli-imgs/287587860_5132928626792013_1487942791120172924_n.jpg"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128561; &#128077; &#128151; &nbsp
+                <span class="text-[1rem]"> 238</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                54 1235 shares - 1 week ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    1 w · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>Which movie is this art piece from ?!</p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/StudioGhibli-imgs/288189638_5150683581683184_3357504748746305432_n.jpg"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128561; &#128077; &#128151; &nbsp
+                <span class="text-[1rem]"> 238</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                54 1235 shares - 1 week ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    1 w · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>Whisper of the heart!</p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/StudioGhibli-imgs/v1.jpg"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128561; &#128077; &#128151; &nbsp
+                <span class="text-[1rem]"> 238</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                54 1235 shares - 1 week ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    1 w · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>The valley of the wind!</p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/StudioGhibli-imgs/288863414_5150682781683264_5758718520383733635_n.jpg"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128561; &#128077; &#128151; &nbsp
+                <span class="text-[1rem]"> 238</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                54 1235 shares - 1 week ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    1 w · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>Fan Art!</p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/Ghibli-imgs/64694547_457514174810667_680789845840232448_n.png"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128561; &#128077; &#128151; &nbsp
+                <span class="text-[1rem]"> 238</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                54 1235 shares - 1 week ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    1 w · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>Kiki's Delivery Service!</p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/Ghibli-imgs/67090754_455550238340394_7558457342136680448_n.png"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128561; &#128077; &#128151; &nbsp
+                <span class="text-[1rem]"> 238</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                54 1235 shares - 1 week ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    1 w · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>Wow !!! Amazing!</p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/Ghibli-imgs/67096438_455546941674057_271312499972767744_n.jpg"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128561; &#128077; &#128151; &nbsp
+                <span class="text-[1rem]"> 238</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                54 1235 shares - 1 week ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    1 w · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>Ponyo! Such a wonderful and magical movie!</p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/Ghibli-imgs/67156122_455538421674909_1905380426038378496_n.png"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128561; &#128077; &#128151; &nbsp
+                <span class="text-[1rem]"> 238</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                54 1235 shares - 1 week ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    1 w · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>Fast!</p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/Ghibli-imgs/67317912_455539978341420_8609007158782066688_n.png"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128561; &#128077; &#128151; &nbsp
+                <span class="text-[1rem]"> 238</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                54 1235 shares - 1 week ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    1 w · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>Painting in fresh air =)</p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/Ghibli-imgs/67678194_455553281673423_5039283784072036352_n.png"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128561; &#128077; &#128151; &nbsp
+                <span class="text-[1rem]"> 238</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                54 1235 shares - 1 week ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    1 w · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>The small borrower!</p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/Ghibli-imgs/67537470_455549305007154_2656758716518367232_n.png"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128561; &#128077; &#128151; &nbsp
+                <span class="text-[1rem]"> 238</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                54 1235 shares - 1 week ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    1 w · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>Nice fan made art of multiple Ghibli characters!</p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/Ghibli-imgs/67494523_457511994810885_4738160259695116288_n.png"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128561; &#128077; &#128151; &nbsp
+                <span class="text-[1rem]"> 238</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                54 1235 shares - 1 week ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    1 w · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>Arriety! The kind borrower!</p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/Ghibli-imgs/67488979_455548785007206_4854149510835732480_n.png"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128561; &#128077; &#128151; &nbsp
+                <span class="text-[1rem]"> 238</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                54 1235 shares - 1 week ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    1 w · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>Haku and Chihiro fan made art.</p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/Ghibli-imgs/67403221_457515518143866_3755618213640011776_n.png"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128561; &#128077; &#128151; &nbsp
+                <span class="text-[1rem]"> 238</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                54 1235 shares - 1 week ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    1 w · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>Ponyo movie!</p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/Ghibli-imgs/67455102_455539241674827_25371316710277120_n.png"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128561; &#128077; &#128151; &nbsp
+                <span class="text-[1rem]"> 238</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                54 1235 shares - 1 week ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+          <article class="post-cont bg-white m-4 shadow-md py-4 rounded-lg">
+            <div class="ml-3 clearfix">
+              <p
+                class="float-right hover:bg-neutral-200 text-[1.3rem] font-bold px-4 p-1 rounded-full cursor-pointer mr-1"
+              >
+                ...
+              </p>
+              <div class="flex-aside2">
+                <div>
+                  <img
+                    class="icon-post"
+                    src="./imgs/Ghibli-imgs/Avatar.jpg"
+                    alt="avatar image"
+                  />
+                </div>
+                <div>
+                  <h2 class="font-bold">Studio Ghibli</h2>
+                  <p>
+                    1 w · <i class="fa-thin fa-solid fa-earth-americas"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="m-3 mt-2">
+              <p>Haku and Chihiro!</p>
+            </div>
+            <div>
+              <img
+                class="min-w-[100%] h-auto block max-h-[900px] m-0"
+                alt="post image"
+                src="./imgs/Ghibli-imgs/post3.jpg"
+              />
+            </div>
+            <div class="p-2 border-b border-[#eee] text-lg flex space-between">
+              <p>
+                &#128561; &#128077; &#128151; &nbsp
+                <span class="text-[1rem]"> 238</span>
+              </p>
+              <p
+                class="text-[1rem] text-neutral-500 ml-auto block cursor-pointer"
+              >
+                54 1235 shares - 1 week ago
+              </p>
+            </div>
+            <div class="flex-2 m-1">
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-solid fa-thumbs-up"></i>
+                <p>Like</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-message fa-solid"></i>
+                <p>Comment</p>
+              </div>
+              <div
+                class="little-btn flex hover:bg-neutral-100 w-[33%] h-[100%] rounded hover:cursor-pointer"
+              >
+                <i class="fa-thin fa-share fa-solid"></i>
+                <p>Share</p>
+              </div>
+            </div>
+            <div class="border-top pt-2 relative">
+              <div class="commentR flex justify-around items-center my-1 mx-1">
+                <div class="mx-1">
+                  <img
+                    class="icon-post-prof"
+                    src="./imgs/Ghibli-imgs/1f970.png"
+                    alt="icon"
+                  />
+                </div>
+                <input
+                  class="w-[90%] placeholder:text-neutral-500 pl-3 px-1 h-[3rem] bg-neutral-100 rounded-3xl border border-neutral-300"
+                  placeholder="Write a comment..."
+                  type="text"
+                />
+                <div
+                  class="border p-2 mx-2 text-neutral-400 border-neutral-300 rounded cursor-pointer"
+                >
+                  Post
+                </div>
+              </div>
+              <div
+                class="absolute bottom-0 right-20 h-100px px-1 py-1 text-neutral-400 text-xl mb-1"
+              >
+                <i class="fa fa-smile cursor-pointer"></i>
+                <span
+                  class="border border-neutral-300 rounded-lg px-1 text-[1.3rem] pt-1 inline-block translate-y-[-1%] mx-2 text-neutral-400 cursor-pointer"
+                  >GIF</span
+                >
+                <i
+                  class="fa fa-camera text-neutral-400 text-2xl cursor-pointer"
+                ></i>
+              </div>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            xmd: "907px",
+            sm: "480px",
+            lg: "950px",
+          },
+          extend: {
+            colors: {
+              blue: "#1b74e4",
+              green: "#31a24c",
+              gray_dark: "--dark-grey1-fb",
+              gray: "#8492a6",
+              gray_light: "#f0f2f5",
+            },
+            fontFamily: {
+              logo: ["S-Logo", "Helvetica"],
+            },
+          },
+        },
+      };
+    </script>
+  </body>
+</html>
+<!-- made by Rami Al-Saadi - in June 2022 -->
