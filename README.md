@@ -1,8 +1,26 @@
 # Social media pages between 2005 and 2022 by Rami and Antonio
 
-## Antonio's Part:
 
-### Pink Panther - Social Page
+## Final Solution:
+
+###  link: https://github.com/Rami24t/Social-Network-Page-Imitation
+
+### Studio Ghibli - Social Network fan Page in 2022 Design using CSS, Tailwind, and HTML.
+- My live solution link: https://rami24t.github.io/Social-Network-Page-Imitation/StudioGhibli-SocialPage.html
+
+### Imitating the social network's landing page design:
+- live solution link: https://rami24t.github.io/Social-Network-Page-Imitation/ 
+
+### Imitating a 2009 Pinkpanther Page page:
+- live solution link: https://rami24t.github.io/Social-Network-Page-Imitation/PinkPanther-SocialPage.html (
+
+
+## Project Work
+
+
+### Antonio's Part:
+
+#### Pink Panther - Social Page
 
 
 - Pink Panther - Social Page
@@ -19,18 +37,16 @@
 
 
 
-## Rami's Part:
+### Rami's Part:
 
-### Social - Landing page & Studio Ghibli - Social Page
+#### Social - Landing page & Studio Ghibli - Social Page
 - Social Home Page
 - Studio Ghibli - Social Page
 - Stacks mainly used: Tailwind , CSS, and HTML
 - Making of the needed raw materials such as the logo and icon.
 
-## Final Solution:
 
-- link: https://github.com/Rami24t/Social-Network-Page-Imitation
-- live solution link: https://rami24t.github.io/Social-Network-Page-Imitation/
+
 
 ## Project Tasks:
 
@@ -56,21 +72,21 @@
 - Make the Sudio Ghibli Page.
 - Make necessary icons, logos, and images.
 
-Tips:
+Tips and Hints:
 
 - Use the help of all the designs, plans, styles, mockups, and help provided by this readme file by the other team member
 - Attend team meetings
 
-# Social network Pages Imitation
+## Social network Pages Imitation
 
-## Imitation of the famous social network home page and of Pages inside it - DCI Group project (June 23.2022)
+### Imitation of the famous social network home page and of Pages inside it - DCI Group project (June 23.2022)
 
-### Part 1:
+#### Part 1:
 
 - Do an imitation of the social network's landing page.
 - Make it look good on all screen sizes.
 
-#### Mockups:
+##### Mockups:
 
 - Desktop:
   ![Desktop](Landing%20Page%20Design/Screenshot%202022-06-24%20at%2009-16-34%20Screenshot.png)
@@ -80,19 +96,19 @@ Tips:
 
 - Mobile:: ...
 
-### Part 2:
+#### Part 2:
 
 - Do an imitation of one social network page design in 2022 mainly using Tailwind,  CSS and HTML.
 - Make it look good on all screen sizes.
 
 
-### Part 3:
+#### Part 3:
 
 - Do an imitation of one social network page design in 2008 using CSS and HTML.
 - Make it look good on all screen sizes.
 
 
-#### Mockup images:
+##### Mockup images:
 
 - Desktop design:
   ![desktop](./Design%20Page//DesktopDesign.png)
@@ -105,13 +121,13 @@ Tips:
 
 ![mobile](./Design%20Page/Mobile%20Design.png)
 
-#### Live examples to imitate:
+##### Live examples to imitate:
 
 - https://www.facebook.com/officialpinkpanther
 - https://www.facebook.com/GhibliUSA/
 
-#### Implementation Sketch Plan:
+##### Implementation Sketch Plan:
 
 ![](./Design%20Page%20Sketches/DesignSketchIMG1.jpg)
 
-#### FB Styles and tips to use in the fb-page inside fb and in the project in general: <a href="./styles.md"> Styles </a>
+##### FB Styles and tips to use in the fb-page inside fb and in the project in general: <a href="./styles.md"> Styles </a>
