@@ -1,4 +1,4 @@
-# Social media pages designs between 2005 and 2022 project made by Rami and Antonio
+# Social media pages designs between 2005 and 2022 project made by Rami Al-Saadi and Antonio Mena
 
 
 ## Final Solution:
