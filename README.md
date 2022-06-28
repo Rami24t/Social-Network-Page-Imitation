@@ -6,12 +6,12 @@
 - Pink Panther - Social Page
 - Imitation of a social network page designs around 2010. 
 - Stacks mainly used: pure CSS and HTML
+- Gathering needed raw material such as icons.
 
 ## Rami's Part:
 
 ### Social - Landing page & Studio Ghibli - Social Page
 - Social Home Page
-- Stacks used: pure CSS and HTML
 - Studio Ghibli - Social Page
 - Stacks mainly used: Tailwind , CSS, and HTML
 - Making of the needed raw materials such as the logo and icon.
@@ -19,9 +19,7 @@
 - link: https://github.com/Rami24t/Social-Network-Page-Imitation
 - live solution link: https://rami24t.github.io/Social-Network-Page-Imitation/
 
-# Project Work
-
-## Rami:
+## Project Tasks:
 
 - Choose a project idea.
 - Prepare plans and designs a and give tips for implementation.
@@ -36,14 +34,14 @@
 - Prepare and explain basic html structure and basic css structure for the other page that the other team member is working on
 - Prepare the presentation of your work and your page.
 - Help with the making of and the presentation of the other pages.
-
-## Antonio:
-
 - Prepare plans and designs a and give tips for implementation.
 - Give suppport and help in the implementation of the other page.
 - Make snapshots and designs.
-- Make a facebook page inside facebook (The Pink Panther Facebook site)
+- Gather needed raw materials.
+- Make a facebook page inside facebook (The Pink Panther Facebook site).
 - Prepare the presentation of your work and your page.
+- Make the Sudio Ghibli Page.
+- Make necessary icons, logos, and images.
 
 Tips:
 
@@ -52,7 +50,7 @@ Tips:
 
 # Social network Pages Imitation
 
-## Imitation of the famous social network home page and of a Page inside it - DCI Group project (June 23.2022)
+## Imitation of the famous social network home page and of Pages inside it - DCI Group project (June 23.2022)
 
 ### Part 1:
 
@@ -71,8 +69,15 @@ Tips:
 
 ### Part 2:
 
-- Do an imitation of one social network page design in 2022 mainly using CSS and HTML.
+- Do an imitation of one social network page design in 2022 mainly using Tailwind,  CSS and HTML.
 - Make it look good on all screen sizes.
+
+
+### Part 3:
+
+- Do an imitation of one social network page design in 2008 using CSS and HTML.
+- Make it look good on all screen sizes.
+
 
 #### Mockup images:
 
@@ -89,10 +94,8 @@ Tips:
 
 #### Live examples to imitate:
 
-- https://www.facebook.com/TomandJerry
 - https://www.facebook.com/officialpinkpanther
 - https://www.facebook.com/GhibliUSA/
-- https://www.facebook.com/AtlusWest/
 
 #### Implementation Sketch Plan:
 
