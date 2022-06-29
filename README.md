@@ -4,6 +4,8 @@
 
 ### link: https://github.com/Rami24t/Social-Network-Page-Imitation
 
+## Live Solution . Fully Responsive
+
 ### Studio Ghibli - Social Network fan Page in 2022 Design using CSS, Tailwind, and HTML.
 
 - My live solution link: https://rami24t.github.io/Social-Network-Page-Imitation/StudioGhibli-SocialPage.html
@@ -14,7 +16,7 @@
 
 ### Imitating a 2009 Pinkpanther Page page:
 
-- live solution link: https://rami24t.github.io/Social-Network-Page-Imitation/PinkPanther-SocialPage.html 
+- live solution link: https://rami24t.github.io/Social-Network-Page-Imitation/PinkPanther-SocialPage.html
 
 ## Project Work
 
@@ -62,15 +64,9 @@
 - Make snapshots and designs.
 - Gather needed raw materials.
 - Make a facebook page inside facebook (The Pink Panther Facebook site).
-- Prepare the presentation of your work and your page.
 - Make the Sudio Ghibli Page.
-- Make necessary icons, logos, and images.
+- Make necessary favicons, icons, logos, and images.
 - Take screenshots of the result of your work.
-
-Tips and Hints:
-
-- Use the help of all the designs, plans, styles, mockups, and help provided by this readme file by the other team member
-- Attend team meetings
 
 ## Social network Pages Imitation
 
@@ -98,7 +94,7 @@ Tips and Hints:
 
 #### Part 3:
 
-- Do an imitation of one social network page design in 2008 using CSS and HTML.
+- Do an imitation of one social network page design in 2010 using CSS and HTML.
 - Make it look good on all screen sizes.
 
 ##### Mockup images:
@@ -123,4 +119,4 @@ Tips and Hints:
 
 ![](./Design%20Page%20Sketches/DesignSketchIMG1.jpg)
 
-##### FB Styles and tips to use in the fb-page inside fb and in the project in general: <a href="./styles.md"> Styles </a>
+##### Styles used: <a href="./styles.md"> Styles </a>
