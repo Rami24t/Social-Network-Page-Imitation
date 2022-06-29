@@ -9,14 +9,17 @@
 ### Studio Ghibli - Social Network fan Page in 2022 Design using CSS, Tailwind, and HTML.
 
 - My live solution link: https://rami24t.github.io/Social-Network-Page-Imitation/StudioGhibli-SocialPage.html
+  coded by Rami Al-Saadi . in June 2022
 
 ### Imitating the social network's landing page design:
 
 - live solution link: https://rami24t.github.io/Social-Network-Page-Imitation/
+  coded by Rami Al-Saadi . in June 2022
 
 ### Imitating a 2009 Pinkpanther Page page:
 
 - live solution link: https://rami24t.github.io/Social-Network-Page-Imitation/PinkPanther-SocialPage.html
+  coded by Antonio Mena . in June 2022
 
 ## Project Work
 
