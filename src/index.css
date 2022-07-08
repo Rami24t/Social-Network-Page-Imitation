@@ -254,7 +254,7 @@ body {
   clear: both;
   background-color: white;
   text-align: left;
-  position: fixed;
+/**  position: fixed; **/
   bottom: 0%;
   left: 0%;
   right: 0%;
