@@ -24,10 +24,13 @@ https://rami24t.github.io/Social-Network-Page-Imitation/StudioGhibli-SocialPage.
 https://rami24t.github.io/Social-Network-Page-Imitation/
 
 #### Snapshots
-##### Desktop:
+##### Desktop
   ![Desktop](Landing%20Page%20Design/Screenshot%202022-06-24%20at%2009-16-34%20Screenshot.png)
-##### Tablet:
+##### Tablet
   ![Tablet](Landing%20Page%20Design/Screenshot%202022-06-24%20at%2009-17-09%20Screenshot.png)
+#### Mobile
+  ![Mobile](https://github.com/Rami24t/Social-Network-Page-Imitation/assets/103028944/928760cf-1fd6-450a-bb39-31bd00ab2e54)
+
 
 
 ### Imitating a 2009 Pinkpanther Page page:
@@ -102,7 +105,9 @@ https://rami24t.github.io/Social-Network-Page-Imitation/
 - Tablet:
   ![Tablet](Landing%20Page%20Design/Screenshot%202022-06-24%20at%2009-17-09%20Screenshot.png)
 
-- Mobile:: ...
+- Mobile:
+  ![Mobile](https://github.com/Rami24t/Social-Network-Page-Imitation/assets/103028944/928760cf-1fd6-450a-bb39-31bd00ab2e54)
+
 
 #### Part 2:
 
