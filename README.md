@@ -33,15 +33,18 @@ https://rami24t.github.io/Social-Network-Page-Imitation/StudioGhibli-SocialPage.
  Imitating the social network's landing page design.
  coded by Rami Al-Saadi . in June 2022
 
-### live demo link
+### Live demo link
 https://rami24t.github.io/Social-Network-Page-Imitation/
 
 #### Snapshots
+
 ###### Desktop
   ![Desktop](Landing%20Page%20Design/Screenshot%202022-06-24%20at%2009-16-34%20Screenshot.png)
+
 ###### Tablet
-  ![Tablet](Landing%20Page%20Design/Screenshot%202022-06-24%20at%2009-17-09%20Screenshot.png)
-##### Mobile
+![Tablet](Landing%20Page%20Design/Screenshot%202022-06-24%20at%2009-17-09%20Screenshot.png)
+
+###### Mobile
   ![Mobile](https://github.com/Rami24t/Social-Network-Page-Imitation/assets/103028944/928760cf-1fd6-450a-bb39-31bd00ab2e54)
 
 
@@ -58,13 +61,9 @@ https://rami24t.github.io/Social-Network-Page-Imitation/
 #### Pink Panther - Social Page
 
 - Pink Panther - Social Page
-
 - Imitation of a social network page designs around 2010.
-
 - Stacks mainly used: pure CSS and HTML
-
 - Gathering needed raw material such as icons.
-
 - Snapshots of results: https://github.com/Rami24t/Social-Network-Page-Imitation/tree/main/ScreenShots%20-%20Antonio
 
 ### Rami's Part:
