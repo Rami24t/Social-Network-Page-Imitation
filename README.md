@@ -102,9 +102,8 @@ https://rami24t.github.io/Social-Network-Page-Imitation/
 - Make necessary favicons, icons, logos, and images.
 - Take screenshots of the result of your work.
 
-## Social network Pages Imitation
-
-### Planning - Imitation of the famous social network home page and of Pages inside it - DCI Group project (June 23.2022)
+### Social network Pages Imitation - Planning, Structure, and Design
+Imitation of the famous social network home page and of Pages inside it - DCI Group project (June 23.2022)
 
 #### Part 1:
 
