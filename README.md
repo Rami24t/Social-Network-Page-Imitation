@@ -19,6 +19,8 @@ https://rami24t.github.io/Social-Network-Page-Imitation/StudioGhibli-SocialPage.
 
 ###### Mobile
 ![Screenshot 2023-05-15 at 21-50-46 Studio Ghibli - Home Social](https://github.com/Rami24t/Social-Network-Page-Imitation/assets/103028944/6f721f54-2d3b-4d32-85c9-07b31038ed04)
+
+###### Mobile
 ![Screenshot 2023-05-15 at 21-50-09 Studio Ghibli - Home Social](https://github.com/Rami24t/Social-Network-Page-Imitation/assets/103028944/166e0471-b7f5-4445-9102-4a6cbbb73f0f)
 ![Screenshot 2023-05-15 at 21-49-54 Studio Ghibli - Home Social](https://github.com/Rami24t/Social-Network-Page-Imitation/assets/103028944/3ffe7f1e-44a0-40b9-bdde-cc77cec99b7b)
 
