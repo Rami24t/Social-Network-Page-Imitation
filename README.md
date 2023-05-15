@@ -1,15 +1,14 @@
-# Social media pages designs between 2005 and 2022 project made by Rami Al-Saadi and Antonio Mena
+# Social media pages
+ Imitating designs of social media pages between 2005 and 2022
 
-## Final Solution:
+### Link of the solution on Github
+ https://github.com/Rami24t/Social-Network-Page-Imitation
 
-### Github link: https://github.com/Rami24t/Social-Network-Page-Imitation
-
-## Live Solution Demo. Fully Responsive
-
-### Studio Ghibli - Social Network fan Page in 2022 Design using CSS, Tailwind, and HTML.
+## Studio Ghibli
+Social Network fan Page in 2022 Design using CSS, Tailwind, and HTML.
 coded by Rami Al-Saadi . in June 2022
 
-#### Live demo link
+### Live demo link
 https://rami24t.github.io/Social-Network-Page-Imitation/StudioGhibli-SocialPage.html
   
 #### Snapshots
@@ -24,18 +23,19 @@ https://rami24t.github.io/Social-Network-Page-Imitation/StudioGhibli-SocialPage.
 ![Screenshot 2023-05-15 at 21-49-54 Studio Ghibli - Home Social](https://github.com/Rami24t/Social-Network-Page-Imitation/assets/103028944/3ffe7f1e-44a0-40b9-bdde-cc77cec99b7b)
 
 
-### Imitating the social network's landing page design:
-  coded by Rami Al-Saadi . in June 2022
+## The Landing/LogIn page
+ Imitating the social network's landing page design.
+ coded by Rami Al-Saadi . in June 2022
 
-#### live demo link
+### live demo link
 https://rami24t.github.io/Social-Network-Page-Imitation/
 
 #### Snapshots
-##### Desktop
+###### Desktop
   ![Desktop](Landing%20Page%20Design/Screenshot%202022-06-24%20at%2009-16-34%20Screenshot.png)
-##### Tablet
+###### Tablet
   ![Tablet](Landing%20Page%20Design/Screenshot%202022-06-24%20at%2009-17-09%20Screenshot.png)
-#### Mobile
+##### Mobile
   ![Mobile](https://github.com/Rami24t/Social-Network-Page-Imitation/assets/103028944/928760cf-1fd6-450a-bb39-31bd00ab2e54)
 
 
