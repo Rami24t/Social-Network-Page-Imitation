@@ -45,7 +45,7 @@ https://rami24t.github.io/Social-Network-Page-Imitation/
 ![Tablet](Landing%20Page%20Design/Screenshot%202022-06-24%20at%2009-17-09%20Screenshot.png)
 
 ###### Mobile
-  ![Mobile]![Screenshot 2023-05-15 at 21-52-55 Social - Login](https://github.com/Rami24t/Social-Network-Page-Imitation/assets/103028944/09c46c91-17ea-4127-b725-5c7fc1bc511c)
+  ![Mobile - Screenshot 2023-05-15 at 21-52-55 Social - Login](https://github.com/Rami24t/Social-Network-Page-Imitation/assets/103028944/09c46c91-17ea-4127-b725-5c7fc1bc511c)
 
 
 
