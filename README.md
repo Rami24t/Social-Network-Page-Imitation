@@ -1,7 +1,7 @@
 # Social media pages
  Imitating designs of social media pages between 2005 and 2022
 
-### Link of the solution on Github
+#### Github link
  https://github.com/Rami24t/Social-Network-Page-Imitation
 
 ## Studio Ghibli
