@@ -69,9 +69,9 @@ https://rami24t.github.io/Social-Network-Page-Imitation/
 
 ### Rami's Part:
 
-#### Social - Landing page & Studio Ghibli - Social Page
+#### Social - Landing/logIn page & Studio Ghibli - ''Social'' Page
 
-- Social Home Page
+- Social Home Landing/logIn Page
 - Studio Ghibli - Social Page
 - Stacks mainly used: Tailwind , CSS, and HTML
 - Making of the needed raw materials such as the logo and icon.
