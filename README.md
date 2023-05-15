@@ -7,10 +7,10 @@
 ## Live Solution Demo. Fully Responsive
 
 ### Studio Ghibli - Social Network fan Page in 2022 Design using CSS, Tailwind, and HTML.
+coded by Rami Al-Saadi . in June 2022
 
 #### Live demo link
 https://rami24t.github.io/Social-Network-Page-Imitation/StudioGhibli-SocialPage.html
-  coded by Rami Al-Saadi . in June 2022
   
 #### Snapshots
 ![Screenshot 2023-05-15 at 21-36-33 Studio Ghibli - Home Social](https://github.com/Rami24t/Social-Network-Page-Imitation/assets/103028944/0058e4b3-336c-4296-bdf8-6448d7d1e7b3)
