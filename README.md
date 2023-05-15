@@ -18,9 +18,17 @@ https://rami24t.github.io/Social-Network-Page-Imitation/StudioGhibli-SocialPage.
 
 
 ### Imitating the social network's landing page design:
-
-- live solution link: https://rami24t.github.io/Social-Network-Page-Imitation/
   coded by Rami Al-Saadi . in June 2022
+
+#### live demo link
+https://rami24t.github.io/Social-Network-Page-Imitation/
+
+#### Snapshots
+##### Desktop:
+  ![Desktop](Landing%20Page%20Design/Screenshot%202022-06-24%20at%2009-16-34%20Screenshot.png)
+##### Tablet:
+  ![Tablet](Landing%20Page%20Design/Screenshot%202022-06-24%20at%2009-17-09%20Screenshot.png)
+
 
 ### Imitating a 2009 Pinkpanther Page page:
 
