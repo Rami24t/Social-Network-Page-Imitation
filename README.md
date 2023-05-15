@@ -104,7 +104,7 @@ https://rami24t.github.io/Social-Network-Page-Imitation/
 
 ## Social network Pages Imitation
 
-### Imitation of the famous social network home page and of Pages inside it - DCI Group project (June 23.2022)
+### Planning - Imitation of the famous social network home page and of Pages inside it - DCI Group project (June 23.2022)
 
 #### Part 1:
 
@@ -113,11 +113,7 @@ https://rami24t.github.io/Social-Network-Page-Imitation/
 
 ##### Mockups:
 
-- Desktop:
   ![Desktop](Landing%20Page%20Design/Screenshot%202022-06-24%20at%2009-16-34%20Screenshot.png)
-
-- Tablet:
-  ![Tablet](Landing%20Page%20Design/Screenshot%202022-06-24%20at%2009-17-09%20Screenshot.png)
 
 
 #### Part 2:
