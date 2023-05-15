@@ -118,9 +118,6 @@ https://rami24t.github.io/Social-Network-Page-Imitation/
 - Tablet:
   ![Tablet](Landing%20Page%20Design/Screenshot%202022-06-24%20at%2009-17-09%20Screenshot.png)
 
-- Mobile:
-  ![Mobile](https://github.com/Rami24t/Social-Network-Page-Imitation/assets/103028944/928760cf-1fd6-450a-bb39-31bd00ab2e54)
-
 
 #### Part 2:
 
