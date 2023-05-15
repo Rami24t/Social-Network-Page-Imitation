@@ -2,7 +2,7 @@
 
 ## Final Solution:
 
-### link: https://github.com/Rami24t/Social-Network-Page-Imitation
+### Github link: https://github.com/Rami24t/Social-Network-Page-Imitation
 
 ## Live Solution Demo. Fully Responsive
 
