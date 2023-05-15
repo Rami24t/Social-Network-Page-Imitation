@@ -6,7 +6,7 @@
 
 ## Studio Ghibli
 Social Network fan Page in 2022 Design using CSS, Tailwind, and HTML.
-coded by Rami Al-Saadi . in June 2022
+###### coded by Rami Al-Saadi . in June 2022
 
 ### Live demo link
 https://rami24t.github.io/Social-Network-Page-Imitation/StudioGhibli-SocialPage.html
@@ -31,7 +31,7 @@ https://rami24t.github.io/Social-Network-Page-Imitation/StudioGhibli-SocialPage.
 
 ## The Landing/LogIn page
  Imitating the social network's landing page design.
- coded by Rami Al-Saadi . in June 2022
+###### coded by Rami Al-Saadi . in June 2022
 
 ### Live demo link
 https://rami24t.github.io/Social-Network-Page-Imitation/
